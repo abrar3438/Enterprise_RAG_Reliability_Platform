@@ -10,8 +10,9 @@ from app.core.database import SessionLocal
 from app.models.tables import Chunk, Document
 from app.services.chunking import chunk_text
 from app.services.cleaning import clean_html, split_sections
+from app.services.embeddings import get_model
 
-model = SentenceTransformer("all-MiniLM-L6-v2")
+model = get_model()
 manifest = json.loads(Path("data/manifest.json").read_text(encoding="utf-8"))
 
 with SessionLocal() as db:

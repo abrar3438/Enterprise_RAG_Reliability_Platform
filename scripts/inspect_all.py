@@ -12,7 +12,8 @@ MIN_CHARS = 500
 
 
 def item_key(name: str) -> str:
-    return name.split(" ")[1].rstrip(".")
+    parts = name.split(" ")
+    return parts[1].rstrip(".") if parts[0] == "Item" and len(parts) > 1 else name
 
 
 def main() -> None:

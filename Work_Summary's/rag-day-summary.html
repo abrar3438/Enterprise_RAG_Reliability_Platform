@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RAG Platform — Day Summary</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1c1b19;--mute:#6b6a65;--line:#e4e2da;--acc:#2f6fed;--ok:#1f8f5f;--warn:#c47a10;--bad:#c23b3b;--chip:#eef3ff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141413;--card:#1e1e1c;--ink:#f0eee8;--mute:#a09e96;--line:#34332f;--acc:#7aa2ff;--ok:#4cc790;--warn:#e8a73c;--bad:#ef7676;--chip:#232a3d}}
+:root[data-theme="dark"]{--bg:#141413;--card:#1e1e1c;--ink:#f0eee8;--mute:#a09e96;--line:#34332f;--acc:#7aa2ff;--ok:#4cc790;--warn:#e8a73c;--bad:#ef7676;--chip:#232a3d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:880px;margin:0 auto;padding:28px 18px 60px}
+header{padding:8px 0 22px}
+.tag{display:inline-block;background:var(--chip);color:var(--acc);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:99px}
+h1{font-size:clamp(26px,5vw,38px);line-height:1.15;margin:12px 0 6px}
+.sub{color:var(--mute);margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:22px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.stat b{display:block;font-size:28px;color:var(--acc)}
+.stat span{color:var(--mute);font-size:13px}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;margin:16px 0}
+h2{font-size:18px;margin:0 0 12px}
+ul{margin:0;padding-left:20px}li{margin:6px 0}
+.tl{border-left:2px solid var(--line);margin-left:6px;padding-left:18px}
+.tl div{position:relative;margin:0 0 14px}
+.tl div:before{content:"";position:absolute;left:-25px;top:7px;width:10px;height:10px;border-radius:50%;background:var(--acc)}
+.tl b{display:block}.tl small{color:var(--mute)}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--mute);font-weight:600}
+.up{color:var(--ok);font-weight:600}
+.pill{font-size:12px;padding:2px 8px;border-radius:99px;font-weight:600}
+.p-ok{background:color-mix(in srgb,var(--ok) 15%,transparent);color:var(--ok)}
+.p-warn{background:color-mix(in srgb,var(--warn) 15%,transparent);color:var(--warn)}
+.p-bad{background:color-mix(in srgb,var(--bad) 15%,transparent);color:var(--bad)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.box{border:1px solid var(--line);border-radius:12px;padding:14px}
+.box h3{margin:0 0 6px;font-size:15px}
+code{background:var(--chip);padding:1px 6px;border-radius:6px;font-size:13px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.flow span{background:var(--chip);color:var(--acc);padding:6px 12px;border-radius:10px;font-size:14px;font-weight:600}
+.flow i{color:var(--mute);font-style:normal}
+.done{opacity:.6}
+</style>
+</head>
+<body>
+<main>
+<header>
+<span class="tag">Project 1 · Enterprise RAG Reliability Platform</span>
+<h1>Day summary: from raw filings to searchable corpus</h1>
+<p class="sub">Friday, 2 October 2026 · Abrar</p>
+</header>
+
+<div class="stats">
+<div class="stat"><b>13</b><span>10-K filings ingested</span></div>
+<div class="stat"><b>7</b><span>companies</span></div>
+<div class="stat"><b>10,628</b><span>chunks in pgvector</span></div>
+<div class="stat"><b>3</b><span>search modes built</span></div>
+</div>
+
+<section>
+<h2>How the day went</h2>
+<div class="tl">
+<div><b>Downloaded the corpus</b><small>13 filings from SEC EDGAR; XOM missing and JPM has one filing (the "recent filings" list cut them off). Accepted and moved on.</small></div>
+<div><b>Cleaned and sectioned the HTML</b><small>BeautifulSoup + lxml, tables kept as readable rows, split by Item headings.</small></div>
+<div><b>Found and fixed a silent data-loss bug</b><small>The splitter kept one span per Item and dropped the rest. Merging all spans recovered the lost text.</small></div>
+<div><b>Chunked, embedded, stored</b><small>800-char chunks, 150 overlap, all-MiniLM-L6-v2 (384 dims), HNSW cosine index.</small></div>
+<div><b>Tested dense search and proved it weak</b><small>"Tesla total revenue" returned five balance-sheet chunks; SQL confirmed the real answer chunks exist. BM25 is justified.</small></div>
+<div><b>Built BM25 + hybrid fusion</b><small>Code written (RRF over dense + BM25); not yet run.</small></div>
+</div>
+</section>
+
+<section>
+<h2>The bug worth remembering</h2>
+<div class="scroll"><table>
+<tr><th>Company</th><th>Chunks before</th><th>Chunks after</th><th>Change</th></tr>
+<tr><td>MSFT (2026)</td><td>96</td><td>619</td><td class="up">+523</td></tr>
+<tr><td>MSFT (2025)</td><td>99</td><td>595</td><td class="up">+496</td></tr>
+<tr><td>PFE</td><td>677 / 705</td><td>1,181 / 1,187</td><td class="up">~+500 each</td></tr>
+<tr><td>WMT</td><td>441 / 483</td><td>658 / 688</td><td class="up">~+210 each</td></tr>
+<tr><td><b>Total</b></td><td>8,182</td><td>10,628</td><td class="up">+2,446</td></tr>
+</table></div>
+<p class="sub" style="margin-top:10px">Lesson: a passing size check says nothing about missing content. The telltale sign was one company with a fraction of the chunks of its peers.</p>
+</section>
+
+<section>
+<h2>Retrieval pipeline so far</h2>
+<div class="flow"><span>Question</span><i>→</i><span>Dense (pgvector)</span><i>+</i><span>BM25</span><i>→</i><span>RRF fusion</span><i>→</i><span class="done">Reranker</span><i>→</i><span class="done">LLM + citations</span></div>
+<p class="sub" style="margin-top:10px">Solid blocks are built; faded blocks come next.</p>
+</section>
+
+<section>
+<h2>Decisions made</h2>
+<div class="grid">
+<div class="box"><h3>Follow the core path</h3>Retrieval → generation → /query → golden eval set → observability → deploy.</div>
+<div class="box"><h3>Defer the extras</h3>Upload routers, Redis cache and a separate logging file wait until the core is evaluated.</div>
+<div class="box"><h3>Skip Exhibit 13</h3>No second download path for a few filings. Fall back to <code>Unsectioned</code> labels instead.</div>
+<div class="box"><h3>One embedding model</h3>Shared <code>embeddings.py</code> so ingest and query always use the same vectors.</div>
+</div>
+</section>
+
+<section>
+<h2>Known issues to keep in mind</h2>
+<ul>
+<li><span class="pill p-warn">labels</span> Some section names contain <code>|</code> and page numbers; NVDA financials sit under "Item 15".</li>
+<li><span class="pill p-warn">duplicates</span> The same chunk can appear from two years and take two result slots.</li>
+<li><span class="pill p-warn">balance</span> JPM has 2,222 chunks and may dominate unfiltered searches.</li>
+<li><span class="pill p-bad">unverified</span> The BM25 + hybrid code has not been run yet.</li>
+</ul>
+</section>
+
+<section>
+<h2>Next session</h2>
+<ul>
+<li>Confirm <code>embeddings.py</code> exists and both <code>retrieval.py</code> and <code>ingest.py</code> import <code>get_model</code> from it.</li>
+<li>Run <code>try_search</code> on the three test queries and compare DENSE, BM25 and HYBRID.</li>
+<li>If NVDA supply-chain results still miss, add a reranker.</li>
+<li>Then <code>generation.py</code> with citations and "not found", followed by <code>/query</code>.</li>
+</ul>
+<p class="sub" style="margin-top:12px"><b>Open check-in:</b> why does RRF fuse by rank instead of adding BM25 and cosine scores?</p>
+</section>
+</main>
+</body>
+</html>

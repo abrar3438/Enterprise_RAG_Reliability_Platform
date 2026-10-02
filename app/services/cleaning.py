@@ -40,27 +40,32 @@ def clean_html(path: str | Path) -> str:
 
 
 def split_sections(text: str) -> list[tuple[str, str]]:
-    """Return [(section_name, section_text)]. Keeps the longest span per Item,
-    so the short table-of-contents entries lose to the real sections."""
+    """Return [(section_name, section_text)]. All spans of the same Item are
+    merged, so no text is dropped."""
     lines = text.split("\n")
     heads = []  # (line_index, item_key, title)
     for i, ln in enumerate(lines):
         m = ITEM_RE.match(ln)
         if m and len(ln) < 200:
             heads.append((i, m.group(1).upper(), m.group(2).strip()))
+    if not heads:
+        return [("Unsectioned", text)]
 
-    best: dict[str, tuple[int, str, str]] = {}
+    merged: dict[str, list] = {}  # key -> [first_line, title, [bodies]]
     for n, (i, key, title) in enumerate(heads):
         end = heads[n + 1][0] if n + 1 < len(heads) else len(lines)
         body = "\n".join(lines[i + 1 : end])
-        if key not in best or len(body) > len(best[key][2]):
-            best[key] = (i, title, body)
+        if key not in merged:
+            merged[key] = [i, title, [body]]
+        else:
+            if not merged[key][1] and title:
+                merged[key][1] = title
+            merged[key][2].append(body)
 
-    ordered = sorted(best.items(), key=lambda kv: kv[1][0])
-    result = [(f"Item {k}. {title}".strip(". "), body) for k, (_, title, body) in ordered]
-
-    if not heads:
-        return [("Unsectioned", text)]
+    result = [
+        (f"Item {k}. {t}".strip(". "), "\n".join(bodies))
+        for k, (_, t, bodies) in sorted(merged.items(), key=lambda kv: kv[1][0])
+    ]
     preamble = "\n".join(lines[: heads[0][0]])
     if preamble.strip():
         result.insert(0, ("Unsectioned", preamble))
