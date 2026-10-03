@@ -1,0 +1,2467 @@
+{
+  "settings": {
+    "k": 10,
+    "pool": 100,
+    "modes": [
+      "dense",
+      "bm25",
+      "hybrid",
+      "rerank"
+    ]
+  },
+  "metrics": {
+    "dense": {
+      "hit_at_1": 0.3125,
+      "hit_at_5": 0.5,
+      "mrr": 0.3736111111111111,
+      "numeric_hit_at_5": 0.5,
+      "narrative_hit_at_5": 0.5,
+      "misses": [
+        "aapl-rev-fy2025",
+        "msft-ni-fy2026",
+        "jpm-assets-2025",
+        "nvda-concentration",
+        "aapl-supply-risk",
+        "wmt-segments",
+        "jpm-credit-risk"
+      ]
+    },
+    "bm25": {
+      "hit_at_1": 0.1875,
+      "hit_at_5": 0.625,
+      "mrr": 0.39375,
+      "numeric_hit_at_5": 0.5,
+      "narrative_hit_at_5": 0.75,
+      "misses": [
+        "aapl-rev-fy2025",
+        "msft-ni-fy2026",
+        "jpm-assets-2025"
+      ]
+    },
+    "hybrid": {
+      "hit_at_1": 0.25,
+      "hit_at_5": 0.5625,
+      "mrr": 0.42361111111111105,
+      "numeric_hit_at_5": 0.375,
+      "narrative_hit_at_5": 0.75,
+      "misses": [
+        "aapl-rev-fy2025",
+        "msft-ni-fy2026",
+        "jpm-assets-2025",
+        "wmt-segments"
+      ]
+    },
+    "rerank": {
+      "hit_at_1": 0.375,
+      "hit_at_5": 0.5625,
+      "mrr": 0.471577380952381,
+      "numeric_hit_at_5": 0.375,
+      "narrative_hit_at_5": 0.75,
+      "misses": [
+        "aapl-rev-fy2025",
+        "msft-ni-fy2026",
+        "jpm-assets-2025"
+      ]
+    }
+  },
+  "results": {
+    "dense": [
+      {
+        "id": "tsla-rev-2025",
+        "type": "numeric",
+        "rank": 3,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations inancing of energy generation and storage products, services related to such products and sales of energy generation incentives. 2025 compared to 2024 Energy generation and storage revenue increased $2.69 billion, or 27%, in the year ended December 31, 2025 as compared to the yea"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations deployments of our products, and invest in research and development to accelerate our AI, software and fleet-based profits for further revenue growth. We ended 2025 with $44.06 billion in cash and cash equivalents and investments, representing an increase of $7.50 billion from th"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations penetration of our energy storage products, developing our battery technologies and vertically integrating, localizing and expanding our supply chain. In 2025, we recognized total revenues of $94.83 billion, representing a decrease of $2.86 billion compared to the prior year. In "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data obligations are satisfied. As of December 31, 2025 and 2024, deferred revenue related to such customer payments amounted to $ 2.04 billion and $ 1.77 billion, respectively, mainly due to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 was $ 1.45 billion and"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations ices and collision, paid Supercharging sessions, automotive insurance business revenue, part sales and retail merchandise sales. 2025 compared to 2024 Automotive sales revenue decreased $6.66 billion, or 9%, in the year ended December 31, 2025 as compared to the year ended Decemb"
+          }
+        ]
+      },
+      {
+        "id": "tsla-rev-no-year",
+        "type": "numeric",
+        "rank": 5,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations inancing of energy generation and storage products, services related to such products and sales of energy generation incentives. 2025 compared to 2024 Energy generation and storage revenue increased $2.69 billion, or 27%, in the year ended December 31, 2025 as compared to the yea"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data s-type leasing revenue and $ 5 million, $ 7 million and $ 164 million, respectively, of sales-type leasing cost of revenue. Services and Other Revenue Services and other revenue consists of sales of used vehicles, non-warranty maintenance services and collision, paid Supercharging sessions, insurance services revenue, pa"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data obligations are satisfied. As of December 31, 2025 and 2024, deferred revenue related to such customer payments amounted to $ 2.04 billion and $ 1.77 billion, respectively, mainly due to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 was $ 1.45 billion and"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations unit due to sales mix and lower material costs, partially offset by lower fixed cost absorption and an increase in tariffs compared to the prior year. Cost of services and other revenue increased $1.68 billion, or 17%, in the year ended December 31, 2025 as compared to the year e"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations penetration of our energy storage products, developing our battery technologies and vertically integrating, localizing and expanding our supply chain. In 2025, we recognized total revenues of $94.83 billion, representing a decrease of $2.86 billion compared to the prior year. In "
+          }
+        ]
+      },
+      {
+        "id": "aapl-rev-fy2025",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "Apple Inc. (AAPL) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations compared to 2024 was primarily driven by increases in headcount-related expenses and infrastructure-related costs. Selling, General and Administrative The growth in selling, general and administrative expense during 2025 compared to 2024 was primarily driven by increases in headco"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "Apple Inc. (AAPL) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations t quarter of 2023. The Company\u2019s fiscal years 2025 and 2024 spanned 52 weeks each, whereas fiscal year 2023 spanned 53 weeks. Macroeconomic Conditions Macroeconomic conditions, including inflation, interest rates and currency fluctuations, have directly and indirectly impacted, an"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Apple Inc. (AAPL) 10-K | Item 8. Financial Statements and Supplementary Data $ | 383,285 Portion of total net sales that was included in deferred revenue as of the beginning of the period | $ | 8,229 | $ | 7,728 | $ | 8,169 (1) Services net sales include amortization of the deferred value of services bundled in the sales price of certain products. The Company\u2019s proportion of net sales by disaggreg"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Apple Inc. (AAPL) 10-K | Item 8. Financial Statements and Supplementary Data 28, 2024, the Company had total deferred revenue of $ 13.7 billion and $ 12.8 billion, respectively. As of September 27, 2025, the Company expects 66 % of total deferred revenue to be realized in less than a year, 23 % within one-to-two years, 9 % within two-to-three years and 2 % in greater than three years. Note 3 \u2013 Ear"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "Apple Inc. (AAPL) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations $ | 20,719 | $ | 29,749 | $ | 16,741 Effective tax rate | 15.6 | % | 24.1 | % | 14.7 | % Statutory federal income tax rate | 21 | % | 21 | % | 21 | % The Company\u2019s effective tax rate for 2025 was lower than the statutory federal income tax rate primarily due to a lower effective t"
+          }
+        ]
+      },
+      {
+        "id": "msft-ni-fy2026",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ses from changes in fair values of derivatives that are not designated as hedging instruments are primarily recognized in other income (expense), net. Other income (expense), net included $6.5 billion of net gains and $4.8 billion of net losses for fiscal years 2026 and 2025, "
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data -term debt, including the current portion, was $ 36.5 billion and $ 40.4 billion, respectively. The estimated fair values are based on Level 2 inputs. Debt in the table above is comprised of senior unsecured obligations and ranks equally with our other outstanding obligations. Interest is paid semi-annually, except fo"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations eneral and Administrative (In millions, except percentages) | 2026 | 2025 | Percentage Change General and administrative | $ | 7,956 | $ | 7,223 | 10% As a percent of revenue | 2% | 3% | (1)ppt General and administrative expenses include payroll, employee benefits, stock-based"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data ve date of final foreign tax credit regulations. In fiscal years 2026, 2025, and 2024, there were no individually significant other reconciling items. The increase in our effective tax rate for fiscal year 2026 compared to fiscal year 2025 was primarily due to changes in the mix of our earnings and tax expenses betwee"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations n foreign jurisdictions resulting from producing and distributing our products and services through our foreign regional operations center in Ireland. The mix of income before income taxes between the U.S. and foreign countries impacted our effective tax rate as a result of th"
+          }
+        ]
+      },
+      {
+        "id": "wmt-rev-fy2026",
+        "type": "numeric",
+        "rank": 3,
+        "top_5": [
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1A. | Risk Factors | 13",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1A. Risk Factors atutory rate. The reconciliation from the U.S. statutory rate to the effective income tax rates for fiscal 2026, 2025 and 2024 is provided in Note 8 . As a result of the factors discussed above, we reported $22.3 billion and $20.2 billion of consolidated net income for fiscal 2026 and 2025, respectively, which represent increases of $2.1 billion and "
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1A. | Risk Factors | 13",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1A. Risk Factors Our total revenues increased $32.2 billion or 4.7% and $32.9 billion or 5.1% for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. These increases in revenues were primarily due to increases in net sales, which increased $31.9 billion or 4.7% and $31.9 billion or 5.0% for fiscal 2026 and 2025, respectively, when compared "
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1. | Business | 6",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1. Business hat our prices will not change under frequent promotional activity. Everyday low cost (\"EDLC\") is our commitment to control expenses so our cost savings can be passed along to our customers. Our operations comprise three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S. Our fiscal year ends on January 31 for our United States (\""
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data o a merchandise category. When the assignment changes, previous period amounts are reclassified to be comparable to the current period's presentation. (Amounts in millions) | Fiscal Years Ended January 31, Walmart U.S. net sales by merchandise category | 2026 | 2025 | 2024 Grocery | $ | 285,482 | $ | 276,003 | $ | 264,21"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1A. | Risk Factors | 13",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1A. Risk Factors s primarily due to increased marketing expenses, higher variable pay as a result of exceeding planned performance and increased depreciation expenses. As a result of the factors discussed above, segment operating income increased $1.3 billion and $1.7 billion for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. 39 Walmar"
+          }
+        ]
+      },
+      {
+        "id": "jpm-assets-2025",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. ts. JPMorgan Chase & Co./2025 Form 10-K | 185 Notes to consolidated financial statements Fair value measurements using significant unobservable inputs Year ended December 31, 2025 (in millions) | Fair value at Jan. 1, 2025 | Total realized/unrealized gains/(losses) | Transfers into level 3 | Transfers (out of) level"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. respective financial results. The Firm\u2019s investments will continue to evolve based on market circumstances and in line with its strategic initiatives. The table below presents the aggregate carrying values of the principal investment portfolios as of December 31, 2025 and 2024. (in billions) | December 31, 2025 | De"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. ated to the LOBs and Corporate may change. Refer to Line of business and Corporate equity on page 96 for additional information on capital allocation. JPMorgan Chase & Co./2025 Form 10-K | 63 Segment & Corporate Results \u2013 Managed Basis The following tables summarize the Firm\u2019s results by business segments and Corpor"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. al taxes, and \u2022 lower benefits associated with other tax audits. Refer to Note 25 for additional information. 54 | JPMorgan Chase & Co./2025 Form 10-K CONSOLIDATED BALANCE SHEETS AND CASH FLOWS ANALYSIS Consolidated balance sheets analysis The following is a discussion of the significant changes between December 31,"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. by secured parties | 410.9 | 297.9 Assets pledged at Federal Reserve banks and FHLBs | 737.1 | 724.0 Total pledged assets | $ | 1,333.6 | $ | 1,174.4 Total pledged assets do not include assets of consolidated VIEs; these assets are used to settle the liabilities of those entities. Refer to Note 14 for additional inf"
+          }
+        ]
+      },
+      {
+        "id": "pfe-rev-2025",
+        "type": "numeric",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS ations and \u2013\u2013 G overnment Regulation an d Price Cons traints sections for additional information. Our 2025 Performance Total Revenues \u2013\u2013Total revenues decreased $1.0 billion, or 2%, to $62.6 billion in 2025 from $63.6 billion in 2024, reflecting an operational decrease of $1.3 billion, or 2%, partially offset by a favorable impact of foreign exchange of $24"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS access or remains in a disadvantaged position relative to an innovator product. For additional information on competition our products face, see the \u2014 Competition section. CONCENTRATION We recorded revenues of more than $1 billion for each of 12 products that collectively accounted for 65% of Total revenues in 2025. For example, Eliquis accounted for 13% of"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 8. FINANCIAL STATEMENTS AND SU",
+            "content": "PFIZER INC (PFE) 10-K | Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA uding Comirnaty and Paxlovid | $ | 54,470 | $ | 51,331 | $ | 45,738 (a) As described above, certain Selling, informational and administrative expenses for corporate affairs, which were previously reported in the operating results of corporate enabling functions, are reported in the operating results of our Biopharma report"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS l and winter seasons. See also the Overview of Our Performance, Operating Environment, Strategy and Outlook \u2014The Global Economic Environment\u2013\u2013COVID-19 section for information about our COVID-19 products. Selling, Informational and Administrative Expenses Selling, informational and administrative expenses decreased $936 million, primarily reflecting focused "
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 8. FINANCIAL STATEMENTS AND SU",
+            "content": "PFIZER INC (PFE) 10-K | Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA he current period presentation. (b) Certain production facilities are shared. Depreciation is allocated based on estimates of physical production. (c) Biopharma\u2019s earnings in 2025 reflects credits to Cost of Sales representing favorable revisions of our estimate of accrued royalties. Biopharma\u2019s revenues and earnings in 20"
+          }
+        ]
+      },
+      {
+        "id": "nvda-rev-fy2026",
+        "type": "numeric",
+        "rank": 9,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules 3 (1) Includes $ 9.0 billion and $ 3.6 billion of customer advances for fiscal years 2026 and 2025, respectively. (2) Includes $ 8.9 billion and $ 3.7 billion related to customer advances for fiscal years 2026 and 2025, respectively. 68 Table of Contents NVIDIA Corporation and Subsidiaries Notes to the Consolidated Finan"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules Total other long-term liabilities | $ | 7,306 | $ | 4,245 (1) Primarily comprised of unrecognized tax benefits and related interest and penalties. (2) Includes unearned revenue related to hardware and software support and cloud services. Deferred Revenue The following table shows the changes in short- and long-term defer"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations e net effect on our gross margin was an unfavorable impact of 2.6% and 2.3% in fiscal years 2026 and 2025, respectively. Operating Expenses Year Ended Jan 25, 2026 | Jan 26, 2025 | $ Change | % Change ($ in millions) Research and development | $ | 18,497 | $ | 12,914 | $ | 5,583 "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations income | $ | 130,387 | $ | 81,453 | Up 60% Net income | $ | 120,067 | $ | 72,880 | Up 65% Net income per diluted share | $ | 4.90 | $ | 2.94 | Up 67% Revenue for fiscal year 2026 was $215.9 billion, up 65% from a year ago. Data Center revenue for fiscal year 2026 was up 68% from "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations espectively. We expect to increase capital expenditures in fiscal year 2027 relative to fiscal year 2026 to support the future growth of our business. Unrecognized tax benefits of $4.0 billion, which includes related interest and penalties of $374 million, were recorded in non-cu"
+          }
+        ]
+      },
+      {
+        "id": "msft-openai",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ctivity and Business Processes and Intelligent Cloud. Revenue and operating income both included a favorable foreign currency impact of 2%. 37 PART II Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data ed basis. As an equity method investee, OpenAI is a related party as defined in Accounting Standards Codification Topic 850, Related Party Disclosures (\u201cASC 850\u201d). In accordance with ASC 850, we are disclosing revenue and accounts receivable balances from transactions with OpenAI. For fiscal year 2026, we recorded rev"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data billion has been funded as of June 30, 2026. We calculate our equity method income or loss using the hypothetical liquidation at book value (\u201cHLBV\u201d) method because our liquidation rights and priorities differ from our underlying ownership interest. Under the HLBV method, we recognize income or loss based on the change"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data ore, our VIE investments are not consolidated and the majority are accounted for under the equity method of accounting or the measurement alternative. 59 PART II We have a long-term strategic partnership with OpenAI. In October 2025, we signed a new definitive agreement with OpenAI that extends this partnership. We ha"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations recorded for fiscal year 2026 primarily relate to the dilution gain from the OpenAI Recapitalization. Fiscal Year 2026 Compared with Fiscal Year 2025 Interest and dividends income increased primarily due to higher portfolio balances and higher yields on debt securities. Intere"
+          }
+        ]
+      },
+      {
+        "id": "nvda-h20",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations warranty costs. Customers may postpone purchasing new architectures or may adopt new technologies more gradually than anticipated, affecting our revenue timing and supply chain expenses. In April 2025, the USG informed us that a license is required for exports of our H20 product "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1. | Business | 4",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1. Business exceeding certain performance thresholds to a party headquartered in, or with an ultimate parent headquartered in, Country Group D5, including China. In April 2025, the USG informed us that it requires a license for export to China (including Hong Kong and Macau) and D:5 countries, or to companies headquartered or with an ultimate parent therein, of our H"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ld allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. In February 2026, the USG granted a license that would allow us to ship small amounts of H200 products to specific China-based cu"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors exceeding certain performance thresholds to a party headquartered in, or with an ultimate parent headquartered in, Country Group D5, including China. In April 2025, the USG informed us that it requires a license for export to China (including Hong Kong and Macau) and D:5 countries, or to companies headquartered or with an ultimate parent therein, of "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1. | Business | 4",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1. Business in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 products diminished. In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. USG of"
+          }
+        ]
+      },
+      {
+        "id": "nvda-concentration",
+        "type": "narrative",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations s not fluctuate with short-term changes in our costs. Within our supply chain, we continuously manage product availability and costs with our vendors. Refer to \u201cItem 1A. Risk Factors \u2013 Risks Related to Regulatory, Legal, Our Stock and Other Matters\u201d for a further discussion of th"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors which could adversely impact our financial results. Risks Related to Our Global Operating Business Adverse economic conditions may harm our business. Economic and industry uncertainty or changes, including recession or slowing growth, inflation, changes or uncertainty in fiscal, monetary, or trade policy, disruptions to capital markets and the bankin"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors times and could be exacerbated if we need to make changes to the design of future products. These risks have increased and may continue to increase as our purchase obligations and prepaids have grown and are expected to continue to grow and become a greater portion of our total supply. All of these factors may negatively impact our gross margins and "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors or other governments, have in the past and/or could in the future have adverse, wide-ranging effects on our business and financial results, including: \u2022 increased costs for wafers, components, logistics, and other supply chain expenses, which have negatively impacted our gross margin in the past and may do so in the future; 18 Table of Contents \u2022 inc"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors \u2022 Commercial arrangements expose us to counterparty risks, which may negatively impact our business, financial condition, or results of operations. \u2022 We may be unable to attract, retain, and motivate our executives and key employees. \u2022 Modification or interruption of our business processes and information systems may disrupt our business and internal"
+          }
+        ]
+      },
+      {
+        "id": "aapl-supply-risk",
+        "type": "narrative",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors \u2019s business and supply chain. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can increase the cost or limit the availability of the Company\u2019s products and the comp"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors onal risks. Future operating results depend upon the Company\u2019s ability to obtain components in sufficient quantities on commercially reasonable terms. Because the Company currently obtains certain components from single or limited sources, the Company is subject to significant supply and pricing risks. Many components, including those that are availab"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors he Company relies on its partners to adhere to its supplier code of conduct, violations of the supplier code of conduct occur from time to time and can materially adversely affect the Company\u2019s business, reputation, results of operations, financial condition and stock price. Changes or additions to the Company\u2019s supply chain require considerable time "
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors tion within a particular industry, or decide to concentrate on the production of common components instead of components customized to meet the Company\u2019s requirements, further limiting the Company\u2019s ability to obtain sufficient quantities of components on commercially reasonable terms, or at all. Therefore, the Company remains subject to significant r"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors facturing services, and developing, acquiring and delivering content for the Company\u2019s services; the Company\u2019s ability to manage product quality and warranty costs effectively; shifts in the mix of products and services, or in the geographic, currency or channel mix, including to the extent that regulatory changes require the Company to modify its pro"
+          }
+        ]
+      },
+      {
+        "id": "tsla-autopilot-verdict",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data ology in a 2019 accident that resulted in a fatality and injuries. The jury awarded $ 129 million in total compensatory damages, finding the driver 67 % at fault and the Company 33 % at fault. The jury also awarded $ 200 million in punitive damages. On September 15, 2025, the Company filed a post-trial motion for judgmen"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data otaxi. The complaint seeks monetary damages and other relief on behalf of persons who purchased Tesla stock between April 19, 2023, and June 22, 2025. The Company intends to vigorously defend itself in these matters; however, we cannot predict the outcome or impact. We are unable to reasonably estimate the possible loss "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data uest under advisement. On January 8, 2025, the Court approved the settlement and awarded Plaintiff\u2019s counsel fees in the amount of approximately $ 176 million. A final judgment was entered by the Court on January 13, 2025."
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data Court issued an opinion denying the motion to revise the Court\u2019s January 30, 2024 opinion and awarded Plaintiff\u2019s counsel fees in the amount of $ 345 million. A final judgment was entered by the Court, and the director defendants and Tesla appealed the decisions to the Delaware Supreme Court. Tesla and the Director Defen"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data subsequent tax years remain subject to examination in U.S. state and foreign jurisdictions. Note 13 \u2013 Commitments and Contingencies Legal Proceedings Litigation Relating to 2018 CEO Performance Award On June 4, 2018, a purported Tesla stockholder filed a putative class and derivative action in the Delaware Court of Chanc"
+          }
+        ]
+      },
+      {
+        "id": "pfe-eliquis-share",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS access or remains in a disadvantaged position relative to an innovator product. For additional information on competition our products face, see the \u2014 Competition section. CONCENTRATION We recorded revenues of more than $1 billion for each of 12 products that collectively accounted for 65% of Total revenues in 2025. For example, Eliquis accounted for 13% of"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 8. FINANCIAL STATEMENTS AND SU",
+            "content": "PFIZER INC (PFE) 10-K | Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA uding Comirnaty and Paxlovid | $ | 54,470 | $ | 51,331 | $ | 45,738 (a) As described above, certain Selling, informational and administrative expenses for corporate affairs, which were previously reported in the operating results of corporate enabling functions, are reported in the operating results of our Biopharma report"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1A. RISK FACTORS | 16",
+            "content": "PFIZER INC (PFE) 10-K | Item 1A. RISK FACTORS 8 Product revenue deductions are primarily a function of product sales volume, mix of products sold, contractual or legislative discounts and rebates. For information on our accruals for product revenue deductions, including the balance sheet classification of these accruals, see Note 1G . Pfizer Inc. | 2025 Form 10-K | 37 Total Revenues\u2014Selected Produ"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 8. FINANCIAL STATEMENTS AND SU",
+            "content": "PFIZER INC (PFE) 10-K | Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA ucturing of $ 2.2 billion ($ 290 million recorded in Selling, informational and administrative expenses and the remaining amount primarily recorded in Restructuring charges and certain acquisition-related costs ), partially offset by (iii) net gains on equity securities of $ 1.6 billion recorded in Other (income)/deduction"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 8. FINANCIAL STATEMENTS AND SU",
+            "content": "PFIZER INC (PFE) 10-K | Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA he current period presentation. (b) Certain production facilities are shared. Depreciation is allocated based on estimates of physical production. (c) Biopharma\u2019s earnings in 2025 reflects credits to Cost of Sales representing favorable revisions of our estimate of accrued royalties. Biopharma\u2019s revenues and earnings in 20"
+          }
+        ]
+      },
+      {
+        "id": "wmt-segments",
+        "type": "narrative",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data cations, located throughout the U.S., Africa, Canada, Central America, Chile, China, India and Mexico. The Company's operations are conducted in three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S. The Company defines its segments as those operations whose results the chief operating decisio"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1. | Business | 6",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1. Business (such as home improvement, outdoor living, gardening, furniture, apparel, jewelry, tools and power equipment, housewares, toys and mattresses); and \u25e6 Technology and entertainment items (such as consumer electronics and accessories, software, video games, office supplies, appliances and third-party gift cards). \u2022 Health and wellness includes pharmacy, opti"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data nel mix. Additionally, the operating results of each reportable segment may not be comparable to those of other retailers, as discussed in Note 1 . 76 The Company measures the profit or loss of its segments using operating income. The CODM uses operating income to allocate resources across the reportable segments as part"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data ere material to the consolidated totals. Additionally, the Company did not generate material revenues from any single customer. Disaggregated Revenues In the following tables, segment net sales are disaggregated by either merchandise category or market. In addition, net sales related to eCommerce are provided for each se"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data segment, including the mix of cost of sales and operating, selling, general and administrative expenses, are not directly comparable due to differences in business model, format and channel mix. Additionally, the operating results of each reportable segment may not be comparable to those of other retailers, as discussed "
+          }
+        ]
+      },
+      {
+        "id": "jpm-credit-risk",
+        "type": "narrative",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. Credit risk is the risk associated with the default or change in credit profile of a client, counterparty or customer. The Firm provides credit to a variety of clients and customers, ranging from large corporate and institutional clients to individual consumers and small businesses. In its consumer businesses, the F"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. ices activities (such as cash management and clearing activities), and securities financing activities. The Firm is also exposed to credit risk through its investment securities portfolio and cash placed with banks. Credit Risk Management monitors and measures credit risk throughout the Firm, and defines credit risk"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 1A. | Risk Factors. | 9-31",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 1A. Risk Factors. law limits its ability to resolve disputes and litigation when a client in that jurisdiction defaults or otherwise fails to make agreed-upon payments. Disputes could arise with counterparties to derivatives contracts concerning the terms, the settlement procedures or the value of underlying collateral. The resolution of those disputes could c"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 1A. | Risk Factors. | 9-31",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 1A. Risk Factors. or to manage declines in the value of collateral. JPMorganChase could incur significant losses arising from concentrations of credit and market risk. JPMorganChase could be exposed to greater credit and market risk if groupings of its clients or counterparties, or obligors on securities and other financial instruments: \u2022 engage in similar or "
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 1A. | Risk Factors. | 9-31",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 1A. Risk Factors. stablish other reserves with respect to certain clients, industries or country exposures in order to align with regulatory directives or expectations. Similarly, challenging economic conditions that affect a particular industry or geographic area could lead to concerns about the credit quality of counterparties, borrowers or other obligors no"
+          }
+        ]
+      }
+    ],
+    "bm25": [
+      {
+        "id": "tsla-rev-2025",
+        "type": "numeric",
+        "rank": 2,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data | 1,343 Net changes in liability for pre-existing contracts, including foreign exchange impact | 141 | ( 92 ) Revenue recognized | ( 956 ) | ( 1,188 ) Deferred revenue \u2014 end of period | $ | 3,867 | $ | 3,599 Deferred revenue is equivalent to the total transaction price allocated to the performance obligations that are un"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data December 31, 2025 | 2024 | 2023 Revenues Automotive sales | $ | 65,821 | $ | 72,480 | $ | 78,509 Automotive regulatory credits | 1,993 | 2,763 | 1,790 Automotive leasing | 1,712 | 1,827 | 2,120 Total automotive revenues | 69,526 | 77,070 | 82,419 Energy generation and storage | 12,771 | 10,086 | 6,035 Services and other "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations charging sessions, cost related to our automotive insurance business, and cost related to our non-warranty maintenance services and collision revenue. Gross margin for total automotive decreased from 18.4% to 17.8% in the year ended December 31, 2025 as compared to the year ended"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data storage sales | 12,270 | 9,564 | 5,515 Services and other | 12,530 | 10,534 | 8,319 Total revenues from sales and services | 92,614 | 95,341 | 94,133 Automotive leasing | 1,712 | 1,827 | 2,120 Energy generation and storage leasing | 501 | 522 | 520 Total revenues | $ | 94,827 | $ | 97,690 | $ | 96,773 Automotive Segment "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations | 2024 | 2023 | $ | % | $ | % Cost of revenues Automotive sales | $ | 56,267 | $ | 61,870 | $ | 65,121 | $ | (5,603) | (9) | % | $ | (3,251) | (5) | % Automotive leasing | 898 | 1,003 | 1,268 | (105) | (10) | % | (265) | (21) | % Total automotive cost of revenues | 57,165 | 62,87"
+          }
+        ]
+      },
+      {
+        "id": "tsla-rev-no-year",
+        "type": "numeric",
+        "rank": 2,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data | 1,343 Net changes in liability for pre-existing contracts, including foreign exchange impact | 141 | ( 92 ) Revenue recognized | ( 956 ) | ( 1,188 ) Deferred revenue \u2014 end of period | $ | 3,867 | $ | 3,599 Deferred revenue is equivalent to the total transaction price allocated to the performance obligations that are un"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data December 31, 2025 | 2024 | 2023 Revenues Automotive sales | $ | 65,821 | $ | 72,480 | $ | 78,509 Automotive regulatory credits | 1,993 | 2,763 | 1,790 Automotive leasing | 1,712 | 1,827 | 2,120 Total automotive revenues | 69,526 | 77,070 | 82,419 Energy generation and storage | 12,771 | 10,086 | 6,035 Services and other "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data storage sales | 12,270 | 9,564 | 5,515 Services and other | 12,530 | 10,534 | 8,319 Total revenues from sales and services | 92,614 | 95,341 | 94,133 Automotive leasing | 1,712 | 1,827 | 2,120 Energy generation and storage leasing | 501 | 522 | 520 Total revenues | $ | 94,827 | $ | 97,690 | $ | 96,773 Automotive Segment "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations | 2024 | 2023 | $ | % | $ | % Cost of revenues Automotive sales | $ | 56,267 | $ | 61,870 | $ | 65,121 | $ | (5,603) | (9) | % | $ | (3,251) | (5) | % Automotive leasing | 898 | 1,003 | 1,268 | (105) | (10) | % | (265) | (21) | % Total automotive cost of revenues | 57,165 | 62,87"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data ion and storage systems, net | 2,177 | 2,310 Other non-current assets | 183 | 183 Total assets | $ | 3,134 | $ | 3,228 Liabilities Current liabilities Accrued liabilities and other | $ | 49 | $ | 32 Deferred revenue | 6 | 6 Current portion of debt and finance leases | 1,364 | 2,114 Total current liabilities | 1,419 | 2,1"
+          }
+        ]
+      },
+      {
+        "id": "aapl-rev-fy2025",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "Apple Inc. (AAPL) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ne 17, iPhone Air, iPhone 17 Pro and iPhone 17 Pro Max \u2022 Apple Watch Series 11, Apple Watch SE 3 and Apple Watch Ultra 3 \u2022 AirPods Pro 3 Fiscal Period The Company\u2019s fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Apple Inc. (AAPL) 10-K | Item 8. Financial Statements and Supplementary Data $ | 383,285 Portion of total net sales that was included in deferred revenue as of the beginning of the period | $ | 8,229 | $ | 7,728 | $ | 8,169 (1) Services net sales include amortization of the deferred value of services bundled in the sales price of certain products. The Company\u2019s proportion of net sales by disaggreg"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "Apple Inc. (AAPL) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ew product, service and software offerings at various times during the year. Significant announcements during fiscal year 2025 included the following: First Quarter 2025: \u2022 MacBook Pro \u2022 Mac mini \u2022 iMac \u2022 iPad mini Second Quarter 2025: \u2022 iPhone 16e \u2022 iPad Air \u2022 iPad \u2022 MacBook Air "
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "Apple Inc. (AAPL) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations t quarter of 2023. The Company\u2019s fiscal years 2025 and 2024 spanned 52 weeks each, whereas fiscal year 2023 spanned 53 weeks. Macroeconomic Conditions Macroeconomic conditions, including inflation, interest rates and currency fluctuations, have directly and indirectly impacted, an"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 16. | Form 10-K Summary | 57",
+            "content": "Apple Inc. (AAPL) 10-K | Item 16. Form 10-K Summary cause such differences include, but are not limited to, those discussed in Part I, Item 1A of this Form 10-K under the heading \u201cRisk Factors.\u201d The Company assumes no obligation to revise or update any forward-looking statements for any reason, except as required by law. Unless otherwise stated, all information presented herein is based on the Com"
+          }
+        ]
+      },
+      {
+        "id": "msft-ni-fy2026",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ses from changes in fair values of derivatives that are not designated as hedging instruments are primarily recognized in other income (expense), net. Other income (expense), net included $6.5 billion of net gains and $4.8 billion of net losses for fiscal years 2026 and 2025, "
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data lion federal capital loss carryforwards for U.S. tax purposes. The federal capital loss carryforwards will expire in fiscal year 2030 if not utilized. The valuation allowance disclosed in the table above relates to the foreign net operating loss carryforwards, federal capital loss carryforwards, and foreign tax credit"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data $ | 10,697 | $ | ( 4,901 | ) | $ | ( 1,646 | ) Other income (expense), net included $ 6.5 billion of net gains, $ 4.8 billion of net losses, and $ 1.5 billion of net losses for fiscal years 2026, 2025, and 2024, respectively, from investments in OpenAI, primarily net recognized gains (losses) on our equity method inve"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data d, net of refunds | $ | 21,188 Income taxes paid, net of refunds, were $ 28.7 billion, and $ 23.4 billion in fiscal years 2025 and 2024, respectively. Uncertain Tax Positions Gross unrecognized tax benefits related to uncertain tax positions as of June 30, 2026, 2025, and 2024, were $ 25.8 billion, $ 24.7 billion, and"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations recorded for fiscal year 2026 primarily relate to the dilution gain from the OpenAI Recapitalization. Fiscal Year 2026 Compared with Fiscal Year 2025 Interest and dividends income increased primarily due to higher portfolio balances and higher yields on debt securities. Intere"
+          }
+        ]
+      },
+      {
+        "id": "wmt-rev-fy2026",
+        "type": "numeric",
+        "rank": 2,
+        "top_5": [
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1A. | Risk Factors | 13",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1A. Risk Factors Our total revenues increased $32.2 billion or 4.7% and $32.9 billion or 5.1% for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. These increases in revenues were primarily due to increases in net sales, which increased $31.9 billion or 4.7% and $31.9 billion or 5.0% for fiscal 2026 and 2025, respectively, when compared "
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1. | Business | 6",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1. Business hat our prices will not change under frequent promotional activity. Everyday low cost (\"EDLC\") is our commitment to control expenses so our cost savings can be passed along to our customers. Our operations comprise three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S. Our fiscal year ends on January 31 for our United States (\""
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1. | Business | 6",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1. Business ry 31, 2024 (\"fiscal 2024\"). During fiscal 2026, we generated total revenues of $713.2 billion, which primarily comprised net sales of $706.4 billion. We maintain our principal offices in Bentonville, Arkansas. Our common stock trades on the Nasdaq Global Select Market under the symbol \"WMT.\" The Development of Our Company"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1A. | Risk Factors | 13",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1A. Risk Factors mmerce sales positively contributed approximately 4.3% and 2.9% to comparable sales for fiscal 2026 and 2025, respectively. This growth reflects continued strength in customer and Walmart+ member engagement with omnichannel offerings, and was primarily driven by store-fulfilled pickup and delivery. Membership and other income increased slightly for f"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1A. | Risk Factors | 13",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1A. Risk Factors s repurchased, average price paid per share and total amount paid for share repurchases for fiscal 2026, 2025 and 2024: Fiscal Years Ended January 31, (Amounts in millions, except per share data) | 2026 | 2025 | 2024 Total number of shares repurchased | 85.0 | 61.9 | 54.6 Average price paid per share | $ | 95.13 | $ | 72.72 | $ | 50.87 Total amount p"
+          }
+        ]
+      },
+      {
+        "id": "jpm-assets-2025",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. tio Total noninterest expense / Total net revenue ROA Reported net income / Total average assets ROE Net income* / Average common stockholders\u2019 equity ROTCE Net income* / Average tangible common equity TBVPS Tangible common equity at period-end / Common shares at period-end * Represents net income applicable to comm"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. 164,591 ) | ( 134,018 ) Total stockholders\u2019 equity | 362,438 | 344,758 Total liabilities and stockholders\u2019 equity | $ | 4,424,900 | $ | 4,002,814 (a) The following table presents information on assets and liabilities related to VIEs that are consolidated by the Firm at December 31, 2025 and 2024. The assets of the c"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. effect of these items on reported results and provide an alternative presentation of the Firm\u2019s performance. 60 | JPMorgan Chase & Co./2025 Form 10-K TCE, ROTCE and TBVPS TCE, ROTCE and TBVPS are each non-GAAP financial measures. TCE represents the Firm\u2019s common stockholders\u2019 equity (i.e., total stockholders\u2019 equity"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. ts. JPMorgan Chase & Co./2025 Form 10-K | 185 Notes to consolidated financial statements Fair value measurements using significant unobservable inputs Year ended December 31, 2025 (in millions) | Fair value at Jan. 1, 2025 | Total realized/unrealized gains/(losses) | Transfers into level 3 | Transfers (out of) level"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. lude intercompany balances that eliminate in consolidation. Refer to Note 14 for a further discussion. December 31, (in millions) | 2025 | 2024 Assets Trading assets | $ | 4,835 | $ | 3,885 Loans | 37,777 | 36,510 All other assets | 683 | 681 Total assets | $ | 43,295 | $ | 41,076 Liabilities Beneficial interests is"
+          }
+        ]
+      },
+      {
+        "id": "pfe-rev-2025",
+        "type": "numeric",
+        "rank": 2,
+        "top_5": [
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS ncreased 6% operationally. Pfizer Inc. | 2025 Form 10-K | 31 The following chart outlines the components of the net change in Total revenues : See the Total Revenues by Geography and Total Revenues\u2013\u2013Selected Product Discussion sections within MD&A for more information, including a discussion of key drivers of our revenue performance. Certain of our vaccines"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS ations and \u2013\u2013 G overnment Regulation an d Price Cons traints sections for additional information. Our 2025 Performance Total Revenues \u2013\u2013Total revenues decreased $1.0 billion, or 2%, to $62.6 billion in 2025 from $63.6 billion in 2024, reflecting an operational decrease of $1.3 billion, or 2%, partially offset by a favorable impact of foreign exchange of $24"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1A. RISK FACTORS | 16",
+            "content": "PFIZER INC (PFE) 10-K | Item 1A. RISK FACTORS 8 Product revenue deductions are primarily a function of product sales volume, mix of products sold, contractual or legislative discounts and rebates. For information on our accruals for product revenue deductions, including the balance sheet classification of these accruals, see Note 1G . Pfizer Inc. | 2025 Form 10-K | 37 Total Revenues\u2014Selected Produ"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1A. RISK FACTORS | 16",
+            "content": "PFIZER INC (PFE) 10-K | Item 1A. RISK FACTORS d within developed markets. Urbanization and the rise of the middle class in emerging markets provide potential growth opportunities for our products. Revenues from operations outside the U.S. of $25.5 billion, $24.9 billion and $31.4 billion accounted for 41%, 39% and 53% of Total revenues in 2025, 2024 and 2023, respectively. Revenues exceeded $500 m"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 8. FINANCIAL STATEMENTS AND SU",
+            "content": "PFIZER INC (PFE) 10-K | Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA : Developed Markets | 16,188 | 16,057 | 20,910 Emerging Markets | 9,313 | 8,879 | 10,498 Total revenues (a) | $ | 62,579 | $ | 63,627 | $ | 59,553 (a) Revenues are primarily attributed to countries based on the location of the customer. Revenues exceeded $500 million in each of 12 , 11 and 14 countries outside the U.S. in "
+          }
+        ]
+      },
+      {
+        "id": "nvda-rev-fy2026",
+        "type": "numeric",
+        "rank": 8,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules ion of the geographic profile of our revenue. Prior period information has been recast to reflect this change. (2) In fiscal year 2026, we estimate 76 % of Data Center revenue from Taiwan-headquartered customers was attributed to end customers based in the United States and Europe. Revenue from sales to customers headqua"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules lic sector entities. Our revenue is concentrated among a limited number of direct and indirect customers and this trend may continue. Direct Customers \u2013 For fiscal year 2026, sales to one direct customer represented 22 % of total revenue and sales to another direct customer represented 14 % of total revenue, all of which"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations lic sector entities. Our revenue is concentrated among a limited number of direct and indirect customers and this trend may continue. Direct Customers \u2013 For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer repres"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations AI research and deployment company contributed to a meaningful amount of our revenue purchasing cloud services from our customers in fiscal year 2026. Revenue by geographic region is designated based on the location of the headquarters of direct customers. The end customer and sh"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules 3 (1) Includes $ 9.0 billion and $ 3.6 billion of customer advances for fiscal years 2026 and 2025, respectively. (2) Includes $ 8.9 billion and $ 3.7 billion related to customer advances for fiscal years 2026 and 2025, respectively. 68 Table of Contents NVIDIA Corporation and Subsidiaries Notes to the Consolidated Finan"
+          }
+        ]
+      },
+      {
+        "id": "msft-openai",
+        "type": "narrative",
+        "rank": 8,
+        "top_5": [
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ome (expense), net (non-GAAP) | $ | 4,167 | $ | (138 | ) | $ | (164 | ) | 3,120% | 16% Net income | $ | 133,749 | $ | 101,832 | $ | 88,136 | 31% | 16% Net (gains) losses from investments in OpenAI, net of tax of $1,567 , $(1,143), and $(356) | (4,963 | ) | 3,620 | 1,126 | (237"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data ore, our VIE investments are not consolidated and the majority are accounted for under the equity method of accounting or the measurement alternative. 59 PART II We have a long-term strategic partnership with OpenAI. In October 2025, we signed a new definitive agreement with OpenAI that extends this partnership. We ha"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data ed basis. As an equity method investee, OpenAI is a related party as defined in Accounting Standards Codification Topic 850, Related Party Disclosures (\u201cASC 850\u201d). In accordance with ASC 850, we are disclosing revenue and accounts receivable balances from transactions with OpenAI. For fiscal year 2026, we recorded rev"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations t period as compared to losses in the prior period. Other, net primarily reflects net recognized gains on equity method investments, including OpenAI. INCOME TAXES Effective Tax Rate Our effective tax rate for fiscal years 2026 and 2025 was 19% and 18%, respectively. The incre"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data $ | 10,697 | $ | ( 4,901 | ) | $ | ( 1,646 | ) Other income (expense), net included $ 6.5 billion of net gains, $ 4.8 billion of net losses, and $ 1.5 billion of net losses for fiscal years 2026, 2025, and 2024, respectively, from investments in OpenAI, primarily net recognized gains (losses) on our equity method inve"
+          }
+        ]
+      },
+      {
+        "id": "nvda-h20",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1. | Business | 4",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1. Business in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 products diminished. In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. USG of"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations warranty costs. Customers may postpone purchasing new architectures or may adopt new technologies more gradually than anticipated, affecting our revenue timing and supply chain expenses. In April 2025, the USG informed us that a license is required for exports of our H20 product "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 products diminished. In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. U"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ld allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. In February 2026, the USG granted a license that would allow us to ship small amounts of H200 products to specific China-based cu"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1. | Business | 4",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1. Business exceeding certain performance thresholds to a party headquartered in, or with an ultimate parent headquartered in, Country Group D5, including China. In April 2025, the USG informed us that it requires a license for export to China (including Hong Kong and Macau) and D:5 countries, or to companies headquartered or with an ultimate parent therein, of our H"
+          }
+        ]
+      },
+      {
+        "id": "nvda-concentration",
+        "type": "narrative",
+        "rank": 4,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors nd change management needs of integration personnel. These challenges have impacted our results of operations and may continue to do so in the future. We receive a significant amount of our revenue from a limited number of partners and distributors and we have a concentration of sales to customers who purchase directly or indirectly from us, and our "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations iBand platforms. Graphics revenue \u2013 The year over year increase was driven by sales of our Blackwell architecture. Reportable segment operating income \u2013 The year over year increase in Compute & Networking segment operating income was driven by growth in revenue, partially offset "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules active markets or model-derived valuations that are observable either directly or indirectly. 58 Table of Contents NVIDIA Corporation and Subsidiaries Notes to the Consolidated Financial Statements (Continued) \u2022 Level 3: Unobservable inputs in which there is little or no market data that are significant to the fair value"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors nd reputation. \u2022 Business disruptions could harm our operations and financial results. \u2022 Climate change may have a long-term impact on our business. \u2022 We may not be able to realize the potential benefits of business investments or acquisitions, nor successfully integrate acquisition targets. \u2022 A significant amount of our revenue stems from a limited "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations 6. The year over year increase in Graphics segment operating income was driven by the growth in revenue. 40 Table of Contents Concentration of Revenue We refer to customers who purchase products directly from NVIDIA as direct customers, such as AIBs, distributors, ODMs, OEMs, CSP"
+          }
+        ]
+      },
+      {
+        "id": "aapl-supply-risk",
+        "type": "narrative",
+        "rank": 5,
+        "top_5": [
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors rotective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company\u2019s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services,"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors \u2019s business and supply chain. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can increase the cost or limit the availability of the Company\u2019s products and the comp"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors nd other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues and other events beyond the Company\u2019s control. Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company\u2019s supply and manufacturing chain, re"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors he Company relies on its partners to adhere to its supplier code of conduct, violations of the supplier code of conduct occur from time to time and can materially adversely affect the Company\u2019s business, reputation, results of operations, financial condition and stock price. Changes or additions to the Company\u2019s supply chain require considerable time "
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors ns and adverse economic conditions can materially adversely affect the Company\u2019s business, results of operations, financial condition and stock price. The Company has international operations with sales outside the U.S. representing a majority of the Company\u2019s total net sales. In addition, the Company\u2019s global supply chain is large and complex and a m"
+          }
+        ]
+      },
+      {
+        "id": "tsla-autopilot-verdict",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data otaxi. The complaint seeks monetary damages and other relief on behalf of persons who purchased Tesla stock between April 19, 2023, and June 22, 2025. The Company intends to vigorously defend itself in these matters; however, we cannot predict the outcome or impact. We are unable to reasonably estimate the possible loss "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data ology in a 2019 accident that resulted in a fatality and injuries. The jury awarded $ 129 million in total compensatory damages, finding the driver 67 % at fault and the Company 33 % at fault. The jury also awarded $ 200 million in punitive damages. On September 15, 2025, the Company filed a post-trial motion for judgmen"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data subsequent tax years remain subject to examination in U.S. state and foreign jurisdictions. Note 13 \u2013 Commitments and Contingencies Legal Proceedings Litigation Relating to 2018 CEO Performance Award On June 4, 2018, a purported Tesla stockholder filed a putative class and derivative action in the Delaware Court of Chanc"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 1A. Risk Factors se material changes to our warranty reserves in the future. Our insurance coverage strategy may not be adequate to protect us from all business risks. We may be subject, in the ordinary course of business, to losses resulting from products liability, accidents, acts of God and other claims against us, for which we may have no insurance coverage. As a"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data CEO Interim Award. If the 2025 CEO Interim Award is cancelled before vesting is deemed probable, no expense will be recognized relating to the award. 2025 CEO Performance Award On September 3, 2025 (the \u201c2025 CEO Performance Award Grant Date\u201d), the Board of Directors granted approximately 423.7 million shares of performa"
+          }
+        ]
+      },
+      {
+        "id": "pfe-eliquis-share",
+        "type": "narrative",
+        "rank": 2,
+        "top_5": [
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS ations and \u2013\u2013 G overnment Regulation an d Price Cons traints sections for additional information. Our 2025 Performance Total Revenues \u2013\u2013Total revenues decreased $1.0 billion, or 2%, to $62.6 billion in 2025 from $63.6 billion in 2024, reflecting an operational decrease of $1.3 billion, or 2%, partially offset by a favorable impact of foreign exchange of $24"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS access or remains in a disadvantaged position relative to an innovator product. For additional information on competition our products face, see the \u2014 Competition section. CONCENTRATION We recorded revenues of more than $1 billion for each of 12 products that collectively accounted for 65% of Total revenues in 2025. For example, Eliquis accounted for 13% of"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS 2023, CMS published the first ten medicines subject to the MDPNP, which included Eliquis. In August 2024, the government released the new Medicare price for Eliquis, which became effective January 1, 2026. In January 2025, CMS announced the selection of another 15 drugs from Medicare Part D for the Maximum Fair Price, with prices to be set and effective on "
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1A. RISK FACTORS | 16",
+            "content": "PFIZER INC (PFE) 10-K | Item 1A. RISK FACTORS 37,078 | $ | 38,691 | $ | 28,145 | $ | 25,501 | $ | 24,936 | $ | 31,408 | (2) | 7 | (4) | 37 | 2 | (21) Pfizer Inc. | 2025 Form 10-K | 36 2025 v. 2024 The following provides an analysis of the worldwide change in Total revenues by geographic areas from 2024 to 2025: (MILLIONS) | Worldwide | U.S. | International Operational growth/(decline): Worldwide d"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1A. RISK FACTORS | 16",
+            "content": "PFIZER INC (PFE) 10-K | Item 1A. RISK FACTORS 8 Product revenue deductions are primarily a function of product sales volume, mix of products sold, contractual or legislative discounts and rebates. For information on our accruals for product revenue deductions, including the balance sheet classification of these accruals, see Note 1G . Pfizer Inc. | 2025 Form 10-K | 37 Total Revenues\u2014Selected Produ"
+          }
+        ]
+      },
+      {
+        "id": "wmt-segments",
+        "type": "narrative",
+        "rank": 10,
+        "top_5": [
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data nel mix. Additionally, the operating results of each reportable segment may not be comparable to those of other retailers, as discussed in Note 1 . 76 The Company measures the profit or loss of its segments using operating income. The CODM uses operating income to allocate resources across the reportable segments as part"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data cations, located throughout the U.S., Africa, Canada, Central America, Chile, China, India and Mexico. The Company's operations are conducted in three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S. The Company defines its segments as those operations whose results the chief operating decisio"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data The Walmart U.S. segment includes the Company's mass merchandising concept in the U.S., as well as eCommerce, which includes omnichannel initiatives and certain other business offerings such as advertising services. The Walmart International segment consists of the Company's operations outside of the U.S., as well as eCo"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1. | Business | 6",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1. Business ng pieces of our omnichannel model centered on our customers around the world who are increasingly seeking convenience. Information About Our Segments We are engaged in global operations of retail, wholesale and other units, as well as eCommerce, located throughout the U.S., Africa, Canada, Central America, Chile, China, India and Mexico. Our operations a"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data segment, including the mix of cost of sales and operating, selling, general and administrative expenses, are not directly comparable due to differences in business model, format and channel mix. Additionally, the operating results of each reportable segment may not be comparable to those of other retailers, as discussed "
+          }
+        ]
+      },
+      {
+        "id": "jpm-credit-risk",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 1A. | Risk Factors. | 9-31",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 1A. Risk Factors. MorganChase could be negatively affected by adverse changes in the financial condition of clients, counterparties, CCPs and other market participants. JPMorganChase routinely executes transactions with clients and counterparties such as corporations, financial institutions, asset managers, hedge funds, securities exchanges and government enti"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. The Firm does not believe that its exposure to any particular loan product or industry segment results in a significant concentration of credit risk. Terms of loan products and collateral coverage are included in the Firm\u2019s assessment when extending credit and establishing its allowance for credit losses. Refer to N"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. nt-grade | $ | 18,877 | 68 | % | $ | 23,783 | 75 | % Noninvestment-grade | 9,060 | 32 | 8,003 | 25 Total | $ | 27,937 | 100 | % | $ | 31,786 | 100 | % While useful as a current view of credit exposure, the net fair value of the derivative receivables does not capture the potential future variability of that credit e"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 9B. | Other Information. | 35",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 9B. Other Information. aware of any other activity, transaction or dealing by any of its affiliates during the calendar year 2025 that requires disclosure under Section 219. As previously disclosed, during the second quarter of 2025, a non-U.S. subsidiary of the Firm processed three payments, each valued at the equivalent of approximately USD 130, for its clie"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. The Firm uses lending-related financial instruments, such as commitments (including revolving credit facilities) and guarantees, to address the financing needs of its clients. The contractual amounts of these financial instruments represent the maximum possible credit risk should the clients draw down on these commi"
+          }
+        ]
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "tsla-rev-2025",
+        "type": "numeric",
+        "rank": 6,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations inancing of energy generation and storage products, services related to such products and sales of energy generation incentives. 2025 compared to 2024 Energy generation and storage revenue increased $2.69 billion, or 27%, in the year ended December 31, 2025 as compared to the yea"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data | 1,343 Net changes in liability for pre-existing contracts, including foreign exchange impact | 141 | ( 92 ) Revenue recognized | ( 956 ) | ( 1,188 ) Deferred revenue \u2014 end of period | $ | 3,867 | $ | 3,599 Deferred revenue is equivalent to the total transaction price allocated to the performance obligations that are un"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data onal information is obtained. Actual results could differ materially from these estimates under different assumptions or conditions. Reclassifications Certain prior period balances have been reclassified to conform to the current period presentation in the consolidated financial statements and the accompanying notes. 54 "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data obligations are satisfied. As of December 31, 2025 and 2024, deferred revenue related to such customer payments amounted to $ 2.04 billion and $ 1.77 billion, respectively, mainly due to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 was $ 1.45 billion and"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data due to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 was $ 1.45 billion and $ 1.27 billion for the years ended December 31, 2025 and 2024, respectively. We have elected the practical expedient to omit disclosure of the amount of the transaction price allo"
+          }
+        ]
+      },
+      {
+        "id": "tsla-rev-no-year",
+        "type": "numeric",
+        "rank": 2,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations inancing of energy generation and storage products, services related to such products and sales of energy generation incentives. 2025 compared to 2024 Energy generation and storage revenue increased $2.69 billion, or 27%, in the year ended December 31, 2025 as compared to the yea"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data December 31, 2025 | 2024 | 2023 Revenues Automotive sales | $ | 65,821 | $ | 72,480 | $ | 78,509 Automotive regulatory credits | 1,993 | 2,763 | 1,790 Automotive leasing | 1,712 | 1,827 | 2,120 Total automotive revenues | 69,526 | 77,070 | 82,419 Energy generation and storage | 12,771 | 10,086 | 6,035 Services and other "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data s-type leasing revenue and $ 5 million, $ 7 million and $ 164 million, respectively, of sales-type leasing cost of revenue. Services and Other Revenue Services and other revenue consists of sales of used vehicles, non-warranty maintenance services and collision, paid Supercharging sessions, insurance services revenue, pa"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data onal information is obtained. Actual results could differ materially from these estimates under different assumptions or conditions. Reclassifications Certain prior period balances have been reclassified to conform to the current period presentation in the consolidated financial statements and the accompanying notes. 54 "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data obligations are satisfied. As of December 31, 2025 and 2024, deferred revenue related to such customer payments amounted to $ 2.04 billion and $ 1.77 billion, respectively, mainly due to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 was $ 1.45 billion and"
+          }
+        ]
+      },
+      {
+        "id": "aapl-rev-fy2025",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 5. | Market for Registrant\u2019s C",
+            "content": "Apple Inc. (AAPL) 10-K | Item 5. Market for Registrant\u2019s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 6 August 31, 2025 to September 27, 2025: Open market and privately negotiated purchases | 27,247 | $ | 238.56 | 27,247 Total | 89,498 | $ | 99,779 (1) On May 2, 2024, the Company announced a program to repurchase up to $110 billion of the Company\u2019s common st"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "Apple Inc. (AAPL) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations e U.S. federal R&D credit, and tax benefits from share-based compensation, partially offset by a change in valuation allowance and state income taxes. The Company\u2019s effective tax rate for 2025 was lower compared to 2024 due to a $10.7 billion year-over-year decrease in the provisi"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "Apple Inc. (AAPL) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations compared to 2024 was primarily driven by increases in headcount-related expenses and infrastructure-related costs. Selling, General and Administrative The growth in selling, general and administrative expense during 2025 compared to 2024 was primarily driven by increases in headco"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "Apple Inc. (AAPL) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations t quarter of 2023. The Company\u2019s fiscal years 2025 and 2024 spanned 52 weeks each, whereas fiscal year 2023 spanned 53 weeks. Macroeconomic Conditions Macroeconomic conditions, including inflation, interest rates and currency fluctuations, have directly and indirectly impacted, an"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "Apple Inc. (AAPL) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations arables, Home and Accessories net sales decreased during 2025 compared to 2024 primarily due to lower net sales of Accessories and Wearables. Services Services net sales increased during 2025 compared to 2024 primarily due to higher net sales from advertising, the App Store and cl"
+          }
+        ]
+      },
+      {
+        "id": "msft-ni-fy2026",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ses from changes in fair values of derivatives that are not designated as hedging instruments are primarily recognized in other income (expense), net. Other income (expense), net included $6.5 billion of net gains and $4.8 billion of net losses for fiscal years 2026 and 2025, "
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data ve date of final foreign tax credit regulations. In fiscal years 2026, 2025, and 2024, there were no individually significant other reconciling items. The increase in our effective tax rate for fiscal year 2026 compared to fiscal year 2025 was primarily due to changes in the mix of our earnings and tax expenses betwee"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data d, net of refunds | $ | 21,188 Income taxes paid, net of refunds, were $ 28.7 billion, and $ 23.4 billion in fiscal years 2025 and 2024, respectively. Uncertain Tax Positions Gross unrecognized tax benefits related to uncertain tax positions as of June 30, 2026, 2025, and 2024, were $ 25.8 billion, $ 24.7 billion, and"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 5. | Market for Registrant\u2019s C",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 5. Market for Registrant\u2019s Common Equity, Related Stockholder Matters, and Issuer Purchases of Equity Securities ing dividends during the fourth quarter of fiscal year 2026: Declaration Date | Record Date | Payment Date | Dividend Per Share | Amount (In millions) June 10, 2026 | August 20, 2026 | September 10, 2026 | $ | 0.91 | $ | 6,759 We returned $10.2 billion "
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data gible low-taxed income (GILTI) (c) | 5,068 | 3.1 % Foreign-derived intangible income deduction | ( 603 | ) | ( 0.4 )% Other | 799 | 0.5 % Tax credits: Research and development credit | ( 1,453 | ) | ( 0.9 )% Foreign tax credits | ( 9,151 | ) | ( 5.5 )% Other | ( 14 | ) | ( 0.0 )% Changes in unrecognized tax benefits ("
+          }
+        ]
+      },
+      {
+        "id": "wmt-rev-fy2026",
+        "type": "numeric",
+        "rank": 3,
+        "top_5": [
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1A. | Risk Factors | 13",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1A. Risk Factors hifts into lower margin merchandise categories across segments, as well as ongoing channel and format mix shifts in the Walmart International segment. Operating expenses as a percentage of net sales increased 20 and 36 basis points for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. The increase for fiscal 2026 was prim"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1A. | Risk Factors | 13",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1A. Risk Factors Our total revenues increased $32.2 billion or 4.7% and $32.9 billion or 5.1% for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. These increases in revenues were primarily due to increases in net sales, which increased $31.9 billion or 4.7% and $31.9 billion or 5.0% for fiscal 2026 and 2025, respectively, when compared "
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1. | Business | 6",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1. Business hat our prices will not change under frequent promotional activity. Everyday low cost (\"EDLC\") is our commitment to control expenses so our cost savings can be passed along to our customers. Our operations comprise three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S. Our fiscal year ends on January 31 for our United States (\""
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data o a merchandise category. When the assignment changes, previous period amounts are reclassified to be comparable to the current period's presentation. (Amounts in millions) | Fiscal Years Ended January 31, Walmart U.S. net sales by merchandise category | 2026 | 2025 | 2024 Grocery | $ | 285,482 | $ | 276,003 | $ | 264,21"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1A. | Risk Factors | 13",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1A. Risk Factors atutory rate. The reconciliation from the U.S. statutory rate to the effective income tax rates for fiscal 2026, 2025 and 2024 is provided in Note 8 . As a result of the factors discussed above, we reported $22.3 billion and $20.2 billion of consolidated net income for fiscal 2026 and 2025, respectively, which represent increases of $2.1 billion and "
+          }
+        ]
+      },
+      {
+        "id": "jpm-assets-2025",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. ts. JPMorgan Chase & Co./2025 Form 10-K | 185 Notes to consolidated financial statements Fair value measurements using significant unobservable inputs Year ended December 31, 2025 (in millions) | Fair value at Jan. 1, 2025 | Total realized/unrealized gains/(losses) | Transfers into level 3 | Transfers (out of) level"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. by secured parties | 410.9 | 297.9 Assets pledged at Federal Reserve banks and FHLBs | 737.1 | 724.0 Total pledged assets | $ | 1,333.6 | $ | 1,174.4 Total pledged assets do not include assets of consolidated VIEs; these assets are used to settle the liabilities of those entities. Refer to Note 14 for additional inf"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. (f) JPMorgan Chase & Co./2025 Form 10-K | 187 Notes to consolidated financial statements Fair value measurements using significant unobservable inputs Year ended December 31, 2023 (in millions) | Fair value at Jan. 1, 2023 | Total realized/unrealized gains/(losses) | Transfers (out of) level 3 | Fair value at Dec. 3"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. 164,591 ) | ( 134,018 ) Total stockholders\u2019 equity | 362,438 | 344,758 Total liabilities and stockholders\u2019 equity | $ | 4,424,900 | $ | 4,002,814 (a) The following table presents information on assets and liabilities related to VIEs that are consolidated by the Firm at December 31, 2025 and 2024. The assets of the c"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. be sold or repledged or otherwise used by the secured parties and are parenthetically identified on the Consolidated balance sheets as assets pledged. The following table presents the carrying value of the Firm\u2019s pledged assets. December 31, (in billions) | 2025 | 2024 Assets that may be sold or repledged or otherwi"
+          }
+        ]
+      },
+      {
+        "id": "pfe-rev-2025",
+        "type": "numeric",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS ations and \u2013\u2013 G overnment Regulation an d Price Cons traints sections for additional information. Our 2025 Performance Total Revenues \u2013\u2013Total revenues decreased $1.0 billion, or 2%, to $62.6 billion in 2025 from $63.6 billion in 2024, reflecting an operational decrease of $1.3 billion, or 2%, partially offset by a favorable impact of foreign exchange of $24"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS access or remains in a disadvantaged position relative to an innovator product. For additional information on competition our products face, see the \u2014 Competition section. CONCENTRATION We recorded revenues of more than $1 billion for each of 12 products that collectively accounted for 65% of Total revenues in 2025. For example, Eliquis accounted for 13% of"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1A. RISK FACTORS | 16",
+            "content": "PFIZER INC (PFE) 10-K | Item 1A. RISK FACTORS Revenue (MILLIONS) | Year Ended Dec. 31, | % Change Product | Global Revenues | Region | 2025 | 2024 | Total | Oper. | Operational Results Commentary Xeljanz | $1,087 Down 7% (operationally) | U.S. | $ | 625 | $ | 680 | (8) | Declines primarily driven by lower net price in the U.S. due to unfavorable changes in channel mix and the impact of higher manu"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 8. FINANCIAL STATEMENTS AND SU",
+            "content": "PFIZER INC (PFE) 10-K | Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA : Developed Markets | 16,188 | 16,057 | 20,910 Emerging Markets | 9,313 | 8,879 | 10,498 Total revenues (a) | $ | 62,579 | $ | 63,627 | $ | 59,553 (a) Revenues are primarily attributed to countries based on the location of the customer. Revenues exceeded $500 million in each of 12 , 11 and 14 countries outside the U.S. in "
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1A. RISK FACTORS | 16",
+            "content": "PFIZER INC (PFE) 10-K | Item 1A. RISK FACTORS d within developed markets. Urbanization and the rise of the middle class in emerging markets provide potential growth opportunities for our products. Revenues from operations outside the U.S. of $25.5 billion, $24.9 billion and $31.4 billion accounted for 41%, 39% and 53% of Total revenues in 2025, 2024 and 2023, respectively. Revenues exceeded $500 m"
+          }
+        ]
+      },
+      {
+        "id": "nvda-rev-fy2026",
+        "type": "numeric",
+        "rank": 6,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations e net effect on our gross margin was an unfavorable impact of 2.6% and 2.3% in fiscal years 2026 and 2025, respectively. Operating Expenses Year Ended Jan 25, 2026 | Jan 26, 2025 | $ Change | % Change ($ in millions) Research and development | $ | 18,497 | $ | 12,914 | $ | 5,583 "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 5. | Market for Registrant\u2019s C",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 5. Market for Registrant\u2019s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities ends is subject to our Board of Directors' continuing determination that the declaration of dividends is in the best interests of our shareholders. 33 Table of Contents The following table presents details of our share repurchase transactions during the fou"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules 3 (1) Includes $ 9.0 billion and $ 3.6 billion of customer advances for fiscal years 2026 and 2025, respectively. (2) Includes $ 8.9 billion and $ 3.7 billion related to customer advances for fiscal years 2026 and 2025, respectively. 68 Table of Contents NVIDIA Corporation and Subsidiaries Notes to the Consolidated Finan"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules Total other long-term liabilities | $ | 7,306 | $ | 4,245 (1) Primarily comprised of unrecognized tax benefits and related interest and penalties. (2) Includes unearned revenue related to hardware and software support and cloud services. Deferred Revenue The following table shows the changes in short- and long-term defer"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules ,737 (1) In fiscal years 2026 and 2025, we recorded an expense of approximately $ 3.2 billion and $ 2.0 billion, respectively, in cost of revenue. (2) Includes customer advances and unearned revenue related to hardware and software support, cloud services, and license and development arrangements. The balance as of Janua"
+          }
+        ]
+      },
+      {
+        "id": "msft-openai",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ctivity and Business Processes and Intelligent Cloud. Revenue and operating income both included a favorable foreign currency impact of 2%. 37 PART II Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data ed basis. As an equity method investee, OpenAI is a related party as defined in Accounting Standards Codification Topic 850, Related Party Disclosures (\u201cASC 850\u201d). In accordance with ASC 850, we are disclosing revenue and accounts receivable balances from transactions with OpenAI. For fiscal year 2026, we recorded rev"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data ore, our VIE investments are not consolidated and the majority are accounted for under the equity method of accounting or the measurement alternative. 59 PART II We have a long-term strategic partnership with OpenAI. In October 2025, we signed a new definitive agreement with OpenAI that extends this partnership. We ha"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data $ | 10,697 | $ | ( 4,901 | ) | $ | ( 1,646 | ) Other income (expense), net included $ 6.5 billion of net gains, $ 4.8 billion of net losses, and $ 1.5 billion of net losses for fiscal years 2026, 2025, and 2024, respectively, from investments in OpenAI, primarily net recognized gains (losses) on our equity method inve"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data billion has been funded as of June 30, 2026. We calculate our equity method income or loss using the hypothetical liquidation at book value (\u201cHLBV\u201d) method because our liquidation rights and priorities differ from our underlying ownership interest. Under the HLBV method, we recognize income or loss based on the change"
+          }
+        ]
+      },
+      {
+        "id": "nvda-h20",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations warranty costs. Customers may postpone purchasing new architectures or may adopt new technologies more gradually than anticipated, affecting our revenue timing and supply chain expenses. In April 2025, the USG informed us that a license is required for exports of our H20 product "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1. | Business | 4",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1. Business in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 products diminished. In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. USG of"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1. | Business | 4",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1. Business exceeding certain performance thresholds to a party headquartered in, or with an ultimate parent headquartered in, Country Group D5, including China. In April 2025, the USG informed us that it requires a license for export to China (including Hong Kong and Macau) and D:5 countries, or to companies headquartered or with an ultimate parent therein, of our H"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 products diminished. In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. U"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors exceeding certain performance thresholds to a party headquartered in, or with an ultimate parent headquartered in, Country Group D5, including China. In April 2025, the USG informed us that it requires a license for export to China (including Hong Kong and Macau) and D:5 countries, or to companies headquartered or with an ultimate parent therein, of "
+          }
+        ]
+      },
+      {
+        "id": "nvda-concentration",
+        "type": "narrative",
+        "rank": 2,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations s not fluctuate with short-term changes in our costs. Within our supply chain, we continuously manage product availability and costs with our vendors. Refer to \u201cItem 1A. Risk Factors \u2013 Risks Related to Regulatory, Legal, Our Stock and Other Matters\u201d for a further discussion of th"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors nd reputation. \u2022 Business disruptions could harm our operations and financial results. \u2022 Climate change may have a long-term impact on our business. \u2022 We may not be able to realize the potential benefits of business investments or acquisitions, nor successfully integrate acquisition targets. \u2022 A significant amount of our revenue stems from a limited "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors ur revenue from a limited number of indirect customers, and we estimate some individually representing 10% or more of our revenue. If end demand increases or our finished goods supply availability is concentrated near a quarter end, the system integrators, distributors, and channel partners may have limited ability to increase their credit, which cou"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors time, these transitions are difficult, may impair our ability to predict demand and impact our supply mix, and may cause us to incur additional costs. Demand estimates for our products, applications, and services can be incorrect, which may create volatility in our revenue or supply levels. We may not be able to generate significant revenue from them"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors nd change management needs of integration personnel. These challenges have impacted our results of operations and may continue to do so in the future. We receive a significant amount of our revenue from a limited number of partners and distributors and we have a concentration of sales to customers who purchase directly or indirectly from us, and our "
+          }
+        ]
+      },
+      {
+        "id": "aapl-supply-risk",
+        "type": "narrative",
+        "rank": 9,
+        "top_5": [
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors \u2019s business and supply chain. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can increase the cost or limit the availability of the Company\u2019s products and the comp"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors he Company relies on its partners to adhere to its supplier code of conduct, violations of the supplier code of conduct occur from time to time and can materially adversely affect the Company\u2019s business, reputation, results of operations, financial condition and stock price. Changes or additions to the Company\u2019s supply chain require considerable time "
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors nd other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues and other events beyond the Company\u2019s control. Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company\u2019s supply and manufacturing chain, re"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors -party applications to its customers, and increase the prices of its products and services. Changing the Company\u2019s business and supply chain in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company\u2019s business and results of operations. Trade and other international disputes ca"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors Compliance with these laws and regulations is onerous and expensive. New and changing laws, regulations, executive orders, directives, and enforcement priorities can adversely affect the Company\u2019s business by increasing the Company\u2019s costs, limiting the Company\u2019s ability to offer a product, service or feature to customers, imposing changes to the desi"
+          }
+        ]
+      },
+      {
+        "id": "tsla-autopilot-verdict",
+        "type": "narrative",
+        "rank": 2,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations Due to the magnitude of our automotive business, our accrued warranty balance is primarily related to our automotive segment. Stock-Based Compensation We use the fair value method of accounting for our restricted stock awards (\u201cRSAs\u201d), stock options and restricted stock units (\u201cR"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data ology in a 2019 accident that resulted in a fatality and injuries. The jury awarded $ 129 million in total compensatory damages, finding the driver 67 % at fault and the Company 33 % at fault. The jury also awarded $ 200 million in punitive damages. On September 15, 2025, the Company filed a post-trial motion for judgmen"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data otaxi. The complaint seeks monetary damages and other relief on behalf of persons who purchased Tesla stock between April 19, 2023, and June 22, 2025. The Company intends to vigorously defend itself in these matters; however, we cannot predict the outcome or impact. We are unable to reasonably estimate the possible loss "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data subsequent tax years remain subject to examination in U.S. state and foreign jurisdictions. Note 13 \u2013 Commitments and Contingencies Legal Proceedings Litigation Relating to 2018 CEO Performance Award On June 4, 2018, a purported Tesla stockholder filed a putative class and derivative action in the Delaware Court of Chanc"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data decision affirming the district court\u2019s dismissal of the amended complaint. On December 29, 2025, the Court\u2019s clerk issued a mandate closing the case. On August 4, 2025, a proposed class action was filed in the U.S. District Court Western District of Texas against Tesla, Inc., Elon Musk, and certain current and former Co"
+          }
+        ]
+      },
+      {
+        "id": "pfe-eliquis-share",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS access or remains in a disadvantaged position relative to an innovator product. For additional information on competition our products face, see the \u2014 Competition section. CONCENTRATION We recorded revenues of more than $1 billion for each of 12 products that collectively accounted for 65% of Total revenues in 2025. For example, Eliquis accounted for 13% of"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1A. RISK FACTORS | 16",
+            "content": "PFIZER INC (PFE) 10-K | Item 1A. RISK FACTORS 8 Product revenue deductions are primarily a function of product sales volume, mix of products sold, contractual or legislative discounts and rebates. For information on our accruals for product revenue deductions, including the balance sheet classification of these accruals, see Note 1G . Pfizer Inc. | 2025 Form 10-K | 37 Total Revenues\u2014Selected Produ"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS 2023, CMS published the first ten medicines subject to the MDPNP, which included Eliquis. In August 2024, the government released the new Medicare price for Eliquis, which became effective January 1, 2026. In January 2025, CMS announced the selection of another 15 drugs from Medicare Part D for the Maximum Fair Price, with prices to be set and effective on "
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS ations and \u2013\u2013 G overnment Regulation an d Price Cons traints sections for additional information. Our 2025 Performance Total Revenues \u2013\u2013Total revenues decreased $1.0 billion, or 2%, to $62.6 billion in 2025 from $63.6 billion in 2024, reflecting an operational decrease of $1.3 billion, or 2%, partially offset by a favorable impact of foreign exchange of $24"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 8. FINANCIAL STATEMENTS AND SU",
+            "content": "PFIZER INC (PFE) 10-K | Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA 1, 2022: Unaudited Supplemental Pro Forma Consolidated Results (MILLIONS, EXCEPT PER SHARE DATA) | Year Ended December 31, 2023 Revenues | $ | 61,893 Net income/(loss) attributable to Pfizer Inc. common shareholders | ( 1,481 ) Diluted earnings/(loss) per share attributable to Pfizer Inc. common shareholders | ( 0.26 )"
+          }
+        ]
+      },
+      {
+        "id": "wmt-segments",
+        "type": "narrative",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Walmart Inc. (WMT) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations Additionally, the discussion provides information about the financial results of each of the three segments of our business to provide a better understanding of how each of those segments and its results of operations affect the financial condition and results of operations of th"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data cations, located throughout the U.S., Africa, Canada, Central America, Chile, China, India and Mexico. The Company's operations are conducted in three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S. The Company defines its segments as those operations whose results the chief operating decisio"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data nel mix. Additionally, the operating results of each reportable segment may not be comparable to those of other retailers, as discussed in Note 1 . 76 The Company measures the profit or loss of its segments using operating income. The CODM uses operating income to allocate resources across the reportable segments as part"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data segment, including the mix of cost of sales and operating, selling, general and administrative expenses, are not directly comparable due to differences in business model, format and channel mix. Additionally, the operating results of each reportable segment may not be comparable to those of other retailers, as discussed "
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data | 2,519 See accompanying notes. 56 Walmart Inc. Notes to Consolidated Financial Statements Note 1. Summary of Significant Accounting Policies General Walmart Inc. (\"Walmart\" or the \"Company\") is a people-led, technology-powered omnichannel retailer dedicated to helping people around the world save money and live better b"
+          }
+        ]
+      },
+      {
+        "id": "jpm-credit-risk",
+        "type": "narrative",
+        "rank": 2,
+        "top_5": [
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. Credit risk is the risk associated with the default or change in credit profile of a client, counterparty or customer. The Firm provides credit to a variety of clients and customers, ranging from large corporate and institutional clients to individual consumers and small businesses. In its consumer businesses, the F"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 1A. | Risk Factors. | 9-31",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 1A. Risk Factors. MorganChase could be negatively affected by adverse changes in the financial condition of clients, counterparties, CCPs and other market participants. JPMorganChase routinely executes transactions with clients and counterparties such as corporations, financial institutions, asset managers, hedge funds, securities exchanges and government enti"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. ns are evaluated primarily by industry and monitored regularly on both an aggregate portfolio level and on an individual client or counterparty basis. The Firm\u2019s wholesale exposure is managed through loan syndications and participations, loan sales, securitizations, credit derivatives, master netting agreements, col"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 1A. | Risk Factors. | 9-31",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 1A. Risk Factors. beyond its control, could: \u2022 hinder JPMorganChase\u2019s ability to provide services to its clients and customers or to transact with its counterparties \u2022 require it to expend significant resources to correct the failure or disruption or to address the event \u2022 cause it to incur losses or liabilities, including from loss of revenue, property damage"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 1A. | Risk Factors. | 9-31",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 1A. Risk Factors. non-default losses incurred by a CCP, including losses from custodial, settlement or investment activities or due to cyber or other security breaches. As part of its clearing services activities, JPMorganChase is exposed to the risk of nonperformance by its clients, which it seeks to mitigate by requiring clients to provide adequate collatera"
+          }
+        ]
+      }
+    ],
+    "rerank": [
+      {
+        "id": "tsla-rev-2025",
+        "type": "numeric",
+        "rank": 7,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data due to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 was $ 1.45 billion and $ 1.27 billion for the years ended December 31, 2025 and 2024, respectively. We have elected the practical expedient to omit disclosure of the amount of the transaction price allo"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data generation and storage segment for the years ended December 31, 2025, 2024 and 2023 was $ 355 million, $ 377 million and $ 343 million, respectively. The following table presents revenues by geographic area based on the sales location of our products (in millions): Year Ended December 31, 2025 | 2024 | 2023 United States"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data obligations are satisfied. As of December 31, 2025 and 2024, deferred revenue related to such customer payments amounted to $ 2.04 billion and $ 1.77 billion, respectively, mainly due to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 was $ 1.45 billion and"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data and 2024, respectively. Of the total deferred revenue balance as of December 31, 2025, we expect to recognize $ 904 million of revenue in the next 12 months. The remaining balance will be recognized at the time of transfer of control of the product or over the performance period as discussed above in Automotive Sales. We"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 7. | Management's Discussion a",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations inancing of energy generation and storage products, services related to such products and sales of energy generation incentives. 2025 compared to 2024 Energy generation and storage revenue increased $2.69 billion, or 27%, in the year ended December 31, 2025 as compared to the yea"
+          }
+        ]
+      },
+      {
+        "id": "tsla-rev-no-year",
+        "type": "numeric",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data storage sales | 12,270 | 9,564 | 5,515 Services and other | 12,530 | 10,534 | 8,319 Total revenues from sales and services | 92,614 | 95,341 | 94,133 Automotive leasing | 1,712 | 1,827 | 2,120 Energy generation and storage leasing | 501 | 522 | 520 Total revenues | $ | 94,827 | $ | 97,690 | $ | 96,773 Automotive Segment "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data generation and storage segment for the years ended December 31, 2025, 2024 and 2023 was $ 355 million, $ 377 million and $ 343 million, respectively. The following table presents revenues by geographic area based on the sales location of our products (in millions): Year Ended December 31, 2025 | 2024 | 2023 United States"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data s-type leasing revenue and $ 5 million, $ 7 million and $ 164 million, respectively, of sales-type leasing cost of revenue. Services and Other Revenue Services and other revenue consists of sales of used vehicles, non-warranty maintenance services and collision, paid Supercharging sessions, insurance services revenue, pa"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data obligations are satisfied. As of December 31, 2025 and 2024, deferred revenue related to such customer payments amounted to $ 2.04 billion and $ 1.77 billion, respectively, mainly due to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 was $ 1.45 billion and"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data due to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 was $ 1.45 billion and $ 1.27 billion for the years ended December 31, 2025 and 2024, respectively. We have elected the practical expedient to omit disclosure of the amount of the transaction price allo"
+          }
+        ]
+      },
+      {
+        "id": "aapl-rev-fy2025",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Apple Inc. (AAPL) 10-K | Item 8. Financial Statements and Supplementary Data 28, 2024, the Company had total deferred revenue of $ 13.7 billion and $ 12.8 billion, respectively. As of September 27, 2025, the Company expects 66 % of total deferred revenue to be realized in less than a year, 23 % within one-to-two years, 9 % within two-to-three years and 2 % in greater than three years. Note 3 \u2013 Ear"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Apple Inc. (AAPL) 10-K | Item 8. Financial Statements and Supplementary Data $ | 383,285 Portion of total net sales that was included in deferred revenue as of the beginning of the period | $ | 8,229 | $ | 7,728 | $ | 8,169 (1) Services net sales include amortization of the deferred value of services bundled in the sales price of certain products. The Company\u2019s proportion of net sales by disaggreg"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Apple Inc. (AAPL) 10-K | Item 8. Financial Statements and Supplementary Data ion. As a result, during the fourth quarter of 2024 the Company recorded a one-time income tax charge of $ 10.2 billion, net, which represented $ 15.8 billion payable to Ireland via release of amounts held in escrow, partially offset by a U.S. foreign tax credit of $ 4.8 billion and a decrease in unrecognized tax benefits"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Apple Inc. (AAPL) 10-K | Item 8. Financial Statements and Supplementary Data rm 10-K | 41 Uncertain Tax Positions As of September 27, 2025, the total amount of gross unrecognized tax benefits was $ 23.2 billion, of which $ 10.6 billion, if recognized, would impact the Company\u2019s effective tax rate. As of September 28, 2024, the total amount of gross unrecognized tax benefits was $ 22.0 billion, of "
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Apple Inc. (AAPL) 10-K | Item 8. Financial Statements and Supplementary Data ents to taxing authorities for employees\u2019 tax obligations were $ 6.1 billion in 2025 and $ 5.6 billion in both 2024 and 2023. Share-Based Compensation The following table shows share-based compensation expense and the related income tax benefit included in the Consolidated Statements of Operations for 2025, 2024 and 2023 "
+          }
+        ]
+      },
+      {
+        "id": "msft-ni-fy2026",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data $ | 10,697 | $ | ( 4,901 | ) | $ | ( 1,646 | ) Other income (expense), net included $ 6.5 billion of net gains, $ 4.8 billion of net losses, and $ 1.5 billion of net losses for fiscal years 2026, 2025, and 2024, respectively, from investments in OpenAI, primarily net recognized gains (losses) on our equity method inve"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ses from changes in fair values of derivatives that are not designated as hedging instruments are primarily recognized in other income (expense), net. Other income (expense), net included $6.5 billion of net gains and $4.8 billion of net losses for fiscal years 2026 and 2025, "
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data d, net of refunds | $ | 21,188 Income taxes paid, net of refunds, were $ 28.7 billion, and $ 23.4 billion in fiscal years 2025 and 2024, respectively. Uncertain Tax Positions Gross unrecognized tax benefits related to uncertain tax positions as of June 30, 2026, 2025, and 2024, were $ 25.8 billion, $ 24.7 billion, and"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data ly. As of June 30, 2026, 2025, and 2024, we had accrued interest expense related to uncertain tax positions of $ 9.4 billion, $ 8.2 billion, and $ 6.8 billion, respectively, net of income tax benefits. The provision for income taxes for fiscal years 2026, 2025, and 2024 included interest expense related to uncertain t"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data | 9,006 | 7,827 | 6,831 Enterprise and partner services | 8,260 | 7,760 | 7,594 Other | 109 | 72 | 45 Total | $ | 331,839 | $ | 281,724 | $ | 245,122 Our Microsoft Cloud revenue, which includes Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365, was $ 2"
+          }
+        ]
+      },
+      {
+        "id": "wmt-rev-fy2026",
+        "type": "numeric",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1. | Business | 6",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1. Business ry 31, 2024 (\"fiscal 2024\"). During fiscal 2026, we generated total revenues of $713.2 billion, which primarily comprised net sales of $706.4 billion. We maintain our principal offices in Bentonville, Arkansas. Our common stock trades on the Nasdaq Global Select Market under the symbol \"WMT.\" The Development of Our Company"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1A. | Risk Factors | 13",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1A. Risk Factors Our total revenues increased $32.2 billion or 4.7% and $32.9 billion or 5.1% for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. These increases in revenues were primarily due to increases in net sales, which increased $31.9 billion or 4.7% and $31.9 billion or 5.0% for fiscal 2026 and 2025, respectively, when compared "
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1. | Business | 6",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1. Business hat our prices will not change under frequent promotional activity. Everyday low cost (\"EDLC\") is our commitment to control expenses so our cost savings can be passed along to our customers. Our operations comprise three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S. Our fiscal year ends on January 31 for our United States (\""
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data ership, which are generally one year, although certain offerings are month-to month. Membership fee revenue was $ 4.4 billion, $ 3.8 billion and $ 3.1 billion for fiscal 2026, 2025 and 2024, respectively. Deferred membership fee revenue is included in accrued liabilities in the Company's Consolidated Balance Sheets. Addi"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data in millions) | 2026 | 2025 | 2024 Revenues U.S. operations | $ | 581,175 | $ | 557,622 | $ | 532,076 Non-U.S. operations | 131,988 | 123,363 | 116,049 Total revenues | $ | 713,163 | $ | 680,985 | $ | 648,125 Long-lived assets U.S. operations | $ | 128,366 | $ | 115,250 | $ | 104,480 Non-U.S. operations | 28,590 | 24,455 "
+          }
+        ]
+      },
+      {
+        "id": "jpm-assets-2025",
+        "type": "numeric",
+        "rank": null,
+        "top_5": [
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. ther information on changes impacting items measured at fair value on a nonrecurring basis. For the year ended December 31, 2025 Level 3 assets were $ 25.1 billion at December 31, 2025, reflecting an increase of $ 1.3 billion from December 31, 2024. The increase for the year ended December 31, 2025 was predominantly"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. 164,591 ) | ( 134,018 ) Total stockholders\u2019 equity | 362,438 | 344,758 Total liabilities and stockholders\u2019 equity | $ | 4,424,900 | $ | 4,002,814 (a) The following table presents information on assets and liabilities related to VIEs that are consolidated by the Firm at December 31, 2025 and 2024. The assets of the c"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. million and $( 158 ) million for the years ended December 31, 2025, 2024 and 2023, respectively. (g) Loan originations are included in purchases. (h) Includes financial assets and liabilities that have matured, been partially or fully repaid, impacts of modifications, deconsolidations associated with beneficial inte"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. lude intercompany balances that eliminate in consolidation. Refer to Note 14 for a further discussion. December 31, (in millions) | 2025 | 2024 Assets Trading assets | $ | 4,835 | $ | 3,885 Loans | 37,777 | 36,510 All other assets | 683 | 681 Total assets | $ | 43,295 | $ | 41,076 Liabilities Beneficial interests is"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. ntractually matures in 2026 through 2030 totaled $ 14.3 billion, $ 20.3 billion, $ 36.4 billion, $ 22.4 billion, and $ 23.6 billion, respectively. (d) Refer to Notes 20 and 28 for information regarding the Parent Company\u2019s guarantees of its subsidiaries\u2019 obligations. (e) Represents payments, net of refunds, made by "
+          }
+        ]
+      },
+      {
+        "id": "pfe-rev-2025",
+        "type": "numeric",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS ations and \u2013\u2013 G overnment Regulation an d Price Cons traints sections for additional information. Our 2025 Performance Total Revenues \u2013\u2013Total revenues decreased $1.0 billion, or 2%, to $62.6 billion in 2025 from $63.6 billion in 2024, reflecting an operational decrease of $1.3 billion, or 2%, partially offset by a favorable impact of foreign exchange of $24"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS ncreased 6% operationally. Pfizer Inc. | 2025 Form 10-K | 31 The following chart outlines the components of the net change in Total revenues : See the Total Revenues by Geography and Total Revenues\u2013\u2013Selected Product Discussion sections within MD&A for more information, including a discussion of key drivers of our revenue performance. Certain of our vaccines"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 8. FINANCIAL STATEMENTS AND SU",
+            "content": "PFIZER INC (PFE) 10-K | Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA ies, respectively. The deferred revenues related to Paxlovid and Comirnaty totaled $ 2.2 billion as of December 31, 2024, with $ 1.4 billion and $ 785 million recorded in current liabilities and noncurrent liabilities, respectively. The decrease in Paxlovid and Comirnaty deferred revenues during 2025 was primarily driven b"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1A. RISK FACTORS | 16",
+            "content": "PFIZER INC (PFE) 10-K | Item 1A. RISK FACTORS d within developed markets. Urbanization and the rise of the middle class in emerging markets provide potential growth opportunities for our products. Revenues from operations outside the U.S. of $25.5 billion, $24.9 billion and $31.4 billion accounted for 41%, 39% and 53% of Total revenues in 2025, 2024 and 2023, respectively. Revenues exceeded $500 m"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS gnificant changes to the Medicare Part D benefit design (IRA Medicare Part D Redesign), which took effect beginning in 2025 and negatively impacted our 2025 revenues by approximately $1 billion. We do not expect a material, incremental impact from the IRA Medicare Part D Redesign in 2026 versus the baseline set in 2025. These changes more acutely impacted o"
+          }
+        ]
+      },
+      {
+        "id": "nvda-rev-fy2026",
+        "type": "numeric",
+        "rank": 7,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules 3 (1) Includes $ 9.0 billion and $ 3.6 billion of customer advances for fiscal years 2026 and 2025, respectively. (2) Includes $ 8.9 billion and $ 3.7 billion related to customer advances for fiscal years 2026 and 2025, respectively. 68 Table of Contents NVIDIA Corporation and Subsidiaries Notes to the Consolidated Finan"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules ion of the geographic profile of our revenue. Prior period information has been recast to reflect this change. (2) In fiscal year 2026, we estimate 76 % of Data Center revenue from Taiwan-headquartered customers was attributed to end customers based in the United States and Europe. Revenue from sales to customers headqua"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules ,737 (1) In fiscal years 2026 and 2025, we recorded an expense of approximately $ 3.2 billion and $ 2.0 billion, respectively, in cost of revenue. (2) Includes customer advances and unearned revenue related to hardware and software support, cloud services, and license and development arrangements. The balance as of Janua"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules lic sector entities. Our revenue is concentrated among a limited number of direct and indirect customers and this trend may continue. Direct Customers \u2013 For fiscal year 2026, sales to one direct customer represented 22 % of total revenue and sales to another direct customer represented 14 % of total revenue, all of which"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors We have experienced periods where we receive a significant amount of our revenue from a limited number of customers, and this trend may continue. For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14% of total revenue, all of which were primarily attributable to the Com"
+          }
+        ]
+      },
+      {
+        "id": "msft-openai",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ctivity and Business Processes and Intelligent Cloud. Revenue and operating income both included a favorable foreign currency impact of 2%. 37 PART II Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data $ | 10,697 | $ | ( 4,901 | ) | $ | ( 1,646 | ) Other income (expense), net included $ 6.5 billion of net gains, $ 4.8 billion of net losses, and $ 1.5 billion of net losses for fiscal years 2026, 2025, and 2024, respectively, from investments in OpenAI, primarily net recognized gains (losses) on our equity method inve"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data ed basis. As an equity method investee, OpenAI is a related party as defined in Accounting Standards Codification Topic 850, Related Party Disclosures (\u201cASC 850\u201d). In accordance with ASC 850, we are disclosing revenue and accounts receivable balances from transactions with OpenAI. For fiscal year 2026, we recorded rev"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 1A. | Risk Factors | 14",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 1A. Risk Factors , Inc. Additionally, we have a long-term strategic partnership with OpenAI. Acquisitions and other transactions and arrangements involve significant challenges and risks, including that they do not advance our business strategy, that we get an unsatisfactory return on our investment, that they raise new compliance-related obligations and challenge"
+          },
+          {
+            "ticker": "MSFT",
+            "filing_date": "2026-07-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data billion has been funded as of June 30, 2026. We calculate our equity method income or loss using the hypothetical liquidation at book value (\u201cHLBV\u201d) method because our liquidation rights and priorities differ from our underlying ownership interest. Under the HLBV method, we recognize income or loss based on the change"
+          }
+        ]
+      },
+      {
+        "id": "nvda-h20",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1. | Business | 4",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1. Business in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 products diminished. In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. USG of"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors in the first quarter of fiscal year 2026 associated with H20 for excess inventory and purchase obligations, as the demand for H20 products diminished. In August 2025, the USG granted licenses that would allow us to ship certain H20 products to certain China-based customers. We generated approximately $60 million in H20 revenue under those licenses. U"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 7. | Management\u2019s Discussion a",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations warranty costs. Customers may postpone purchasing new architectures or may adopt new technologies more gradually than anticipated, affecting our revenue timing and supply chain expenses. In April 2025, the USG informed us that a license is required for exports of our H20 product "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1. | Business | 4",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1. Business receive 15% or more of the revenue generated from licensed sales of our products, but the USG did not publish a regulation codifying such requirement. In February 2026, the USG granted a license that would allow us to ship small amounts of H200 products to specific China-based customers. To date, we have not generated any revenue under the H200 licensing "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors receive 15% or more of the revenue generated from licensed sales of our products, but the USG did not publish a regulation codifying such requirement. In February 2026, the USG granted a license that would allow us to ship small amounts of H200 products to specific China-based customers. To date, we have not generated any revenue under the H200 licen"
+          }
+        ]
+      },
+      {
+        "id": "nvda-concentration",
+        "type": "narrative",
+        "rank": 5,
+        "top_5": [
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors ur revenue from a limited number of indirect customers, and we estimate some individually representing 10% or more of our revenue. If end demand increases or our finished goods supply availability is concentrated near a quarter end, the system integrators, distributors, and channel partners may have limited ability to increase their credit, which cou"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors nt portfolio contains industry sector concentration risks, and a decline in any one or multiple industry sectors could increase our impairment losses. We face additional risks related to acquisitions and strategic investments, including the diversion of capital and other resources, including management\u2019s attention; difficulty in realizing a satisfact"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 15. | Exhibits and Financial S",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 15. Exhibits and Financial Statement Schedules le inputs in which there is little or no market data that are significant to the fair value of the assets or liabilities. Concentration of Credit Risk Financial instruments that potentially subject us to concentrations of credit risk consist primarily of cash equivalents, marketable securities, lease guarantees, and acco"
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors nd change management needs of integration personnel. These challenges have impacted our results of operations and may continue to do so in the future. We receive a significant amount of our revenue from a limited number of partners and distributors and we have a concentration of sales to customers who purchase directly or indirectly from us, and our "
+          },
+          {
+            "ticker": "NVDA",
+            "filing_date": "2026-02-25",
+            "section": "Item 1A. | Risk Factors | 12",
+            "content": "NVIDIA CORP (NVDA) 10-K | Item 1A. Risk Factors nd reputation. \u2022 Business disruptions could harm our operations and financial results. \u2022 Climate change may have a long-term impact on our business. \u2022 We may not be able to realize the potential benefits of business investments or acquisitions, nor successfully integrate acquisition targets. \u2022 A significant amount of our revenue stems from a limited "
+          }
+        ]
+      },
+      {
+        "id": "aapl-supply-risk",
+        "type": "narrative",
+        "rank": 7,
+        "top_5": [
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors The Company and its global supply chain are dependent on complex information technology systems and are exposed to information technology system failures or network disruptions caused by natural disasters, accidents, power disruptions, telecommunications failures, acts of terrorism or war, computer viruses, physical or electronic break-ins, ransomware"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors he Company relies on its partners to adhere to its supplier code of conduct, violations of the supplier code of conduct occur from time to time and can materially adversely affect the Company\u2019s business, reputation, results of operations, financial condition and stock price. Changes or additions to the Company\u2019s supply chain require considerable time "
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors rotective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company\u2019s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services,"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors nd other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues and other events beyond the Company\u2019s control. Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company\u2019s supply and manufacturing chain, re"
+          },
+          {
+            "ticker": "AAPL",
+            "filing_date": "2025-10-31",
+            "section": "Item 1A. | Risk Factors | 5",
+            "content": "Apple Inc. (AAPL) 10-K | Item 1A. Risk Factors onal risks. Future operating results depend upon the Company\u2019s ability to obtain components in sufficient quantities on commercially reasonable terms. Because the Company currently obtains certain components from single or limited sources, the Company is subject to significant supply and pricing risks. Many components, including those that are availab"
+          }
+        ]
+      },
+      {
+        "id": "tsla-autopilot-verdict",
+        "type": "narrative",
+        "rank": 1,
+        "top_5": [
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data ology in a 2019 accident that resulted in a fatality and injuries. The jury awarded $ 129 million in total compensatory damages, finding the driver 67 % at fault and the Company 33 % at fault. The jury also awarded $ 200 million in punitive damages. On September 15, 2025, the Company filed a post-trial motion for judgmen"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data otaxi. The complaint seeks monetary damages and other relief on behalf of persons who purchased Tesla stock between April 19, 2023, and June 22, 2025. The Company intends to vigorously defend itself in these matters; however, we cannot predict the outcome or impact. We are unable to reasonably estimate the possible loss "
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data Court issued an opinion denying the motion to revise the Court\u2019s January 30, 2024 opinion and awarded Plaintiff\u2019s counsel fees in the amount of $ 345 million. A final judgment was entered by the Court, and the director defendants and Tesla appealed the decisions to the Delaware Supreme Court. Tesla and the Director Defen"
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data uest under advisement. On January 8, 2025, the Court approved the settlement and awarded Plaintiff\u2019s counsel fees in the amount of approximately $ 176 million. A final judgment was entered by the Court on January 13, 2025."
+          },
+          {
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data issued an opinion finding that the 2018 CEO Performance Award should be rescinded. Plaintiff\u2019s counsel filed a brief seeking a fee award of 29,402,900 Tesla shares, plus expenses of $ 1,120,115.50 . Tesla opposed the fee request, and at Tesla\u2019s 2024 Annual Meeting of Stockholders, 72"
+          }
+        ]
+      },
+      {
+        "id": "pfe-eliquis-share",
+        "type": "narrative",
+        "rank": 2,
+        "top_5": [
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS ations and \u2013\u2013 G overnment Regulation an d Price Cons traints sections for additional information. Our 2025 Performance Total Revenues \u2013\u2013Total revenues decreased $1.0 billion, or 2%, to $62.6 billion in 2025 from $63.6 billion in 2024, reflecting an operational decrease of $1.3 billion, or 2%, partially offset by a favorable impact of foreign exchange of $24"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS access or remains in a disadvantaged position relative to an innovator product. For additional information on competition our products face, see the \u2014 Competition section. CONCENTRATION We recorded revenues of more than $1 billion for each of 12 products that collectively accounted for 65% of Total revenues in 2025. For example, Eliquis accounted for 13% of"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1A. RISK FACTORS | 16",
+            "content": "PFIZER INC (PFE) 10-K | Item 1A. RISK FACTORS 8 Product revenue deductions are primarily a function of product sales volume, mix of products sold, contractual or legislative discounts and rebates. For information on our accruals for product revenue deductions, including the balance sheet classification of these accruals, see Note 1G . Pfizer Inc. | 2025 Form 10-K | 37 Total Revenues\u2014Selected Produ"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 8. FINANCIAL STATEMENTS AND SU",
+            "content": "PFIZER INC (PFE) 10-K | Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA ies, respectively. The deferred revenues related to Paxlovid and Comirnaty totaled $ 2.2 billion as of December 31, 2024, with $ 1.4 billion and $ 785 million recorded in current liabilities and noncurrent liabilities, respectively. The decrease in Paxlovid and Comirnaty deferred revenues during 2025 was primarily driven b"
+          },
+          {
+            "ticker": "PFE",
+            "filing_date": "2026-02-26",
+            "section": "Item 1. BUSINESS | 3",
+            "content": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS 2023, CMS published the first ten medicines subject to the MDPNP, which included Eliquis. In August 2024, the government released the new Medicare price for Eliquis, which became effective January 1, 2026. In January 2025, CMS announced the selection of another 15 drugs from Medicare Part D for the Maximum Fair Price, with prices to be set and effective on "
+          }
+        ]
+      },
+      {
+        "id": "wmt-segments",
+        "type": "narrative",
+        "rank": 6,
+        "top_5": [
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data cations, located throughout the U.S., Africa, Canada, Central America, Chile, China, India and Mexico. The Company's operations are conducted in three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S. The Company defines its segments as those operations whose results the chief operating decisio"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data The Walmart U.S. segment includes the Company's mass merchandising concept in the U.S., as well as eCommerce, which includes omnichannel initiatives and certain other business offerings such as advertising services. The Walmart International segment consists of the Company's operations outside of the U.S., as well as eCo"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data mers. The Company's operations comprise three reportable segments: Walmart U.S., Walmart International and Sam's Club U.S. Principles of Consolidation The Consolidated Financial Statements include the accounts of Walmart and its subsidiaries as of and for the fiscal years ended January 31, 2026 (\"fiscal 2026\"), January 3"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1. | Business | 6",
+            "content": "Walmart Inc. (WMT) 10-K | Item 1. Business ng pieces of our omnichannel model centered on our customers around the world who are increasingly seeking convenience. Information About Our Segments We are engaged in global operations of retail, wholesale and other units, as well as eCommerce, located throughout the U.S., Africa, Canada, Central America, Chile, China, India and Mexico. Our operations a"
+          },
+          {
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. | Financial Statements and ",
+            "content": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data segment, including the mix of cost of sales and operating, selling, general and administrative expenses, are not directly comparable due to differences in business model, format and channel mix. Additionally, the operating results of each reportable segment may not be comparable to those of other retailers, as discussed "
+          }
+        ]
+      },
+      {
+        "id": "jpm-credit-risk",
+        "type": "narrative",
+        "rank": 4,
+        "top_5": [
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. Credit risk is the risk associated with the default or change in credit profile of a client, counterparty or customer. The Firm provides credit to a variety of clients and customers, ranging from large corporate and institutional clients to individual consumers and small businesses. In its consumer businesses, the F"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 15. | Exhibits, Financial Stat",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 15. Exhibits, Financial Statement Schedules. In its wholesale businesses, the Firm is exposed to credit risk primarily through its underwriting, lending, market-making, and hedging activities with and for clients and counterparties, as well as through various operating services (such as cash management and clearing activities), securities financing activities "
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 1A. | Risk Factors. | 9-31",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 1A. Risk Factors. non-default losses incurred by a CCP, including losses from custodial, settlement or investment activities or due to cyber or other security breaches. As part of its clearing services activities, JPMorganChase is exposed to the risk of nonperformance by its clients, which it seeks to mitigate by requiring clients to provide adequate collatera"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 1A. | Risk Factors. | 9-31",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 1A. Risk Factors. MorganChase could be negatively affected by adverse changes in the financial condition of clients, counterparties, CCPs and other market participants. JPMorganChase routinely executes transactions with clients and counterparties such as corporations, financial institutions, asset managers, hedge funds, securities exchanges and government enti"
+          },
+          {
+            "ticker": "JPM",
+            "filing_date": "2026-02-13",
+            "section": "Item 1A. | Risk Factors. | 9-31",
+            "content": "JPMORGAN CHASE & CO (JPM) 10-K | Item 1A. Risk Factors. or to manage declines in the value of collateral. JPMorganChase could incur significant losses arising from concentrations of credit and market risk. JPMorganChase could be exposed to greater credit and market risk if groupings of its clients or counterparties, or obligors on securities and other financial instruments: \u2022 engage in similar or "
+          }
+        ]
+      }
+    ]
+  },
+  "not_found": [
+    {
+      "id": "xom-revenue-2024",
+      "top_score": 1.431,
+      "top_text": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS ations and \u2013\u2013 G overnment Regulation an d Price Cons traints sections for additional information. Our 2025 Pe"
+    },
+    {
+      "id": "aapl-vision-pro-sales",
+      "top_score": 2.242,
+      "top_text": "Apple Inc. (AAPL) 10-K | Item 7. Management\u2019s Discussion and Analysis of Financial Condition and Results of Operations ew product, service and softwar"
+    },
+    {
+      "id": "tsla-cybertruck-revenue",
+      "top_score": 7.943,
+      "top_text": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations to our production ramp of Cybe"
+    },
+    {
+      "id": "nvda-ai-chip-share",
+      "top_score": 3.558,
+      "top_text": "NVIDIA CORP (NVDA) 10-K | Item 1. Business ed by our products. In addition, it is possible that new competitors or alliances among competitors could e"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+[
+  {
+    "id": "tsla-rev-2025",
+    "question": "What was Tesla's total revenue in 2025?",
+    "ticker": "TSLA",
+    "filing_date": "2026-01-29",
+    "fiscal_year": 2025,
+    "type": "numeric",
+    "expected_answer": "$94.83 billion",
+    "evidence_snippet": [
+      "Total revenues | $ | 94,827",
+      "Total revenues | 94,827",
+      "total revenues of $94.83 billion"
+    ],
+    "notes": "answer appears in prose, in the MD&A table and in the income statement; 'Total revenues from sales and services' is a different number."
+  },
+  {
+    "id": "tsla-rev-no-year",
+    "question": "What was Tesla's total revenue?",
+    "ticker": "TSLA",
+    "filing_date": "2026-01-29",
+    "fiscal_year": null,
+    "type": "numeric",
+    "expected_answer": "$94.83 billion",
+    "evidence_snippet": [
+      "Total revenues | $ | 94,827",
+      "Total revenues | 94,827",
+      "total revenues of $94.83 billion"
+    ],
+    "notes": "ambiguous without a year; 2026 filing is the newest so it should resolve here. Expected to fail until year handling is added."
+  },
+  {
+    "id": "aapl-rev-fy2025",
+    "question": "What was Apple's total revenue in fiscal 2025?",
+    "ticker": "AAPL",
+    "filing_date": "2025-10-31",
+    "fiscal_year": 2025,
+    "type": "numeric",
+    "expected_answer": "$416.2 billion",
+    "evidence_snippet": [
+      "Total net sales | 416,161 | 391,035 | 383,285"
+    ],
+    "notes": "Consolidated revenue; avoid segment totals."
+  },
+  {
+    "id": "msft-ni-fy2026",
+    "question": "What was Microsoft's net income in fiscal 2026?",
+    "ticker": "MSFT",
+    "filing_date": "2026-07-29",
+    "fiscal_year": 2026,
+    "type": "numeric",
+    "expected_answer": "$133.7 billion",
+    "evidence_snippet": [
+      "Net income | $ | 133,749 | $ | 101,832 | $ | 88,136"
+    ],
+    "notes": null
+  },
+  {
+    "id": "wmt-rev-fy2026",
+    "question": "What were Walmart's total revenues in fiscal 2026?",
+    "ticker": "WMT",
+    "filing_date": "2026-03-13",
+    "fiscal_year": 2026,
+    "type": "numeric",
+    "expected_answer": "$713.2 billion",
+    "evidence_snippet": [
+      "Total revenues | 713,163 | 680,985 | 648,125",
+      "we generated total revenues of $713.2 billion"
+    ],
+    "notes": "Consolidated revenue; avoid segment totals."
+  },
+  {
+    "id": "jpm-assets-2025",
+    "question": "What were JPMorgan Chase's consolidated total assets at the end of 2025?",
+    "ticker": "JPM",
+    "filing_date": "2026-02-13",
+    "fiscal_year": 2025,
+    "type": "numeric",
+    "expected_answer": "$4.42 trillion",
+    "evidence_snippet": [
+      "Total assets | 4,424,900 | 4,002,814 | 3,875,393"
+    ],
+    "notes": "Consolidated assets; avoid segment totals."
+  },
+  {
+    "id": "pfe-rev-2025",
+    "question": "How did Pfizer's total revenues change in 2025?",
+    "ticker": "PFE",
+    "filing_date": "2026-02-26",
+    "fiscal_year": 2025,
+    "type": "numeric",
+    "expected_answer": "Down 2% to $62.6 billion from $63.6 billion",
+    "evidence_snippet": [
+      "decreased $1.0 billion, or 2%, to $62.6 billion in 2025"
+    ],
+    "notes": null
+  },
+  {
+    "id": "nvda-rev-fy2026",
+    "question": "What was Nvidia's total revenue in fiscal 2026?",
+    "ticker": "NVDA",
+    "filing_date": "2026-02-25",
+    "fiscal_year": 2026,
+    "type": "numeric",
+    "expected_answer": "$215.9 billion",
+    "evidence_snippet": [
+      "Total revenue | $ | 215,938",
+      "Revenue | $ | 215,938"
+    ],
+    "notes": "Consolidated revenue; found in MD&A and Item 15 notes."
+  },
+  {
+    "id": "msft-openai",
+    "question": "How did OpenAI investments affect Microsoft's earnings?",
+    "ticker": "MSFT",
+    "filing_date": "2026-07-29",
+    "fiscal_year": null,
+    "type": "narrative",
+    "expected_answer": "Net gains raised net income and EPS",
+    "evidence_snippet": [
+      "positively impacted by net gains from investments in OpenAI"
+    ],
+    "notes": null
+  },
+  {
+    "id": "nvda-h20",
+    "question": "How much revenue did Nvidia make from H20 licenses for China?",
+    "ticker": "NVDA",
+    "filing_date": "2026-02-25",
+    "fiscal_year": null,
+    "type": "narrative",
+    "expected_answer": "About $60 million",
+    "evidence_snippet": [
+      "We generated approximately $60 million in H20 revenue"
+    ],
+    "notes": null
+  },
+  {
+    "id": "nvda-concentration",
+    "question": "What revenue concentration risk does Nvidia describe?",
+    "ticker": "NVDA",
+    "filing_date": "2026-02-25",
+    "fiscal_year": null,
+    "type": "narrative",
+    "expected_answer": "A large share of revenue comes from a limited number of partners and distributors",
+    "evidence_snippet": [
+      "A significant amount of our revenue stems from a limited number of partners and distributors",
+      "one direct customer represented 22% of total revenue"
+    ],
+    "notes": null
+  },
+  {
+    "id": "aapl-supply-risk",
+    "question": "What supply chain risks does Apple describe?",
+    "ticker": "AAPL",
+    "filing_date": "2025-10-31",
+    "fiscal_year": null,
+    "type": "narrative",
+    "expected_answer": "Concentrated supply chain, tariffs and trade restrictions, most suppliers outside the U.S.",
+    "evidence_snippet": [
+      "Global supply chains can be highly concentrated",
+      "supplier facilities, including manufacturing and assembly sites, are located outside the U.S.",
+      "tariffs and other controls on imports or exports"
+    ],
+    "notes": "Widened to accept valid chunks about trade restrictions."
+  },
+  {
+    "id": "tsla-autopilot-verdict",
+    "question": "How much did the jury award in the Autopilot accident trial?",
+    "ticker": "TSLA",
+    "filing_date": "2026-01-29",
+    "fiscal_year": null,
+    "type": "narrative",
+    "expected_answer": "$129 million in compensatory damages",
+    "evidence_snippet": [
+      "jury awarded"
+    ],
+    "notes": "Short snippet used to avoid hidden newline in the number."
+  },
+  {
+    "id": "pfe-eliquis-share",
+    "question": "What share of Pfizer's revenue came from Eliquis in 2025?",
+    "ticker": "PFE",
+    "filing_date": "2026-02-26",
+    "fiscal_year": 2025,
+    "type": "narrative",
+    "expected_answer": "13%",
+    "evidence_snippet": [
+      "Eliquis accounted"
+    ],
+    "notes": "Short snippet used to avoid hidden newline in the percentage."
+  },
+  {
+    "id": "wmt-segments",
+    "question": "What are Walmart's reportable segments?",
+    "ticker": "WMT",
+    "filing_date": "2026-03-13",
+    "fiscal_year": null,
+    "type": "narrative",
+    "expected_answer": "Walmart U.S., Walmart International, Sam's Club U.S.",
+    "evidence_snippet": [
+      "Our operations comprise three reportable segments"
+    ],
+    "notes": null
+  },
+  {
+    "id": "jpm-credit-risk",
+    "question": "How does JPMorgan Chase's dealing with clients expose it to credit risk?",
+    "ticker": "JPM",
+    "filing_date": "2026-02-13",
+    "fiscal_year": null,
+    "type": "narrative",
+    "expected_answer": "Losses if clients or counterparties default",
+    "evidence_snippet": [
+      "expose JPMorganChase to the credit risk of its clients and counterparties"
+    ],
+    "notes": null
+  },
+  {
+    "id": "xom-revenue-2024",
+    "question": "What was ExxonMobil's total revenue in 2024?",
+    "ticker": null,
+    "filing_date": null,
+    "fiscal_year": 2024,
+    "type": "not_found",
+    "expected_answer": "Not found (ExxonMobil is not in the corpus).",
+    "evidence_snippet": [],
+    "notes": "company not in corpus; ticker set to null so system searches all chunks"
+  },
+  {
+    "id": "aapl-vision-pro-sales",
+    "question": "How many Vision Pro headsets did Apple sell in fiscal 2025?",
+    "ticker": "AAPL",
+    "filing_date": "2025-10-31",
+    "fiscal_year": 2025,
+    "type": "not_found",
+    "expected_answer": "Not found (unit sales for specific products are not disclosed in 10-Ks).",
+    "evidence_snippet": [],
+    "notes": "near-miss; product is mentioned but unit sales are not broken out"
+  },
+  {
+    "id": "tsla-cybertruck-revenue",
+    "question": "What was Tesla's revenue from Cybertruck in 2025?",
+    "ticker": "TSLA",
+    "filing_date": "2026-01-29",
+    "fiscal_year": 2025,
+    "type": "not_found",
+    "expected_answer": "Not found (revenue is not broken out by vehicle model in the 10-K).",
+    "evidence_snippet": [],
+    "notes": "near-miss; Cybertruck is mentioned but revenue is not broken out"
+  },
+  {
+    "id": "nvda-ai-chip-share",
+    "question": "What is Nvidia's market share in AI chips?",
+    "ticker": "NVDA",
+    "filing_date": "2026-02-25",
+    "fiscal_year": null,
+    "type": "not_found",
+    "expected_answer": "Not found (10-Ks do not cite third-party market share statistics).",
+    "evidence_snippet": [],
+    "notes": "near-miss; AI chips are discussed but market share is not"
+  }
+]
