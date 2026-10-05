@@ -1,0 +1,171 @@
+{
+  "results": [
+    {
+      "question": "What was Tesla's total revenue in 2025?",
+      "result": {
+        "answer": "Tesla\u2019s total revenue for 2025 was **$94,827\u202fmillion** (approximately $94.8\u202fbillion)\u202f\u30102\u3011.",
+        "citations": [],
+        "refused": false,
+        "error": null,
+        "prompt_version": "v1",
+        "model": "gpt oss 120b",
+        "latency_ms": 2065,
+        "prompt_tokens": 1381,
+        "completion_tokens": 148,
+        "finish_reason": "stop",
+        "cost_bdt": 0.016713,
+        "balance_after": 45.4352,
+        "attempts": 1,
+        "reasoning_chars": 378
+      }
+    },
+    {
+      "question": "What was Microsoft's net income in fiscal 2026?",
+      "result": {
+        "answer": "I could not find this in the provided filings.",
+        "citations": [],
+        "refused": true,
+        "error": null,
+        "prompt_version": "v1",
+        "model": "gpt oss 120b",
+        "latency_ms": 2515,
+        "prompt_tokens": 1486,
+        "completion_tokens": 322,
+        "finish_reason": "stop",
+        "cost_bdt": 0.024396,
+        "balance_after": 45.4108,
+        "attempts": 1,
+        "reasoning_chars": 1145
+      }
+    },
+    {
+      "question": "How much did the jury award in the Autopilot accident trial?",
+      "result": {
+        "answer": "The jury awarded **$129\u202fmillion in total compensatory damages** and **$200\u202fmillion in punitive damages** in the Autopilot accident trial\u30101\u3011.",
+        "citations": [],
+        "refused": false,
+        "error": null,
+        "prompt_version": "v1",
+        "model": "gpt oss 120b",
+        "latency_ms": 2129,
+        "prompt_tokens": 1101,
+        "completion_tokens": 225,
+        "finish_reason": "stop",
+        "cost_bdt": 0.017541,
+        "balance_after": 45.3932,
+        "attempts": 1,
+        "reasoning_chars": 761
+      }
+    },
+    {
+      "question": "What are Walmart's reportable segments?",
+      "result": {
+        "answer": "Walmart\u2019s reportable segments are\u202fWalmart\u202fU.S.,\u202fWalmart\u202fInternational, and\u202fSam\u2019s\u202fClub\u202fU.S.\u202f[1][4]",
+        "citations": [
+          {
+            "number": 1,
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. Financial Statements and Supplementary Data",
+            "preview": "cations, located throughout the U.S., Africa, Canada, Central America, Chile, China, India and Mexico. The Company's operations are conducted in\nthree\nreportable segments: Walmart U.S., Walmart Intern"
+          },
+          {
+            "number": 4,
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1. Business",
+            "preview": "ng pieces of our omnichannel model centered on our customers around the world who are increasingly seeking convenience.\nInformation About Our Segments\nWe are engaged in global operations of retail, wh"
+          }
+        ],
+        "refused": false,
+        "error": null,
+        "prompt_version": "v1",
+        "model": "gpt oss 120b",
+        "latency_ms": 1631,
+        "prompt_tokens": 1147,
+        "completion_tokens": 116,
+        "finish_reason": "stop",
+        "cost_bdt": 0.013609,
+        "balance_after": 45.3796,
+        "attempts": 1,
+        "reasoning_chars": 345
+      }
+    },
+    {
+      "question": "What was Tesla's revenue from Cybertruck in 2025?",
+      "result": {
+        "answer": "I could not find this in the provided filings.",
+        "citations": [],
+        "refused": true,
+        "error": null,
+        "prompt_version": "v1",
+        "model": "gpt oss 120b",
+        "latency_ms": 1433,
+        "prompt_tokens": 1313,
+        "completion_tokens": 96,
+        "finish_reason": "stop",
+        "cost_bdt": 0.014129,
+        "balance_after": 45.3655,
+        "attempts": 1,
+        "reasoning_chars": 347
+      }
+    },
+    {
+      "question": "What is Nvidia's market share in AI chips?",
+      "result": {
+        "answer": "I could not find this in the provided filings.",
+        "citations": [],
+        "refused": true,
+        "error": null,
+        "prompt_version": "v1",
+        "model": "gpt oss 120b",
+        "latency_ms": 1570,
+        "prompt_tokens": 1093,
+        "completion_tokens": 106,
+        "finish_reason": "stop",
+        "cost_bdt": 0.012789,
+        "balance_after": 45.3527,
+        "attempts": 1,
+        "reasoning_chars": 365
+      }
+    },
+    {
+      "question": "How many Vision Pro headsets did Apple sell in fiscal 2025?",
+      "result": {
+        "answer": "I could not find this in the provided filings.",
+        "citations": [],
+        "refused": true,
+        "error": null,
+        "prompt_version": "v1",
+        "model": "gpt oss 120b",
+        "latency_ms": 1904,
+        "prompt_tokens": 1483,
+        "completion_tokens": 101,
+        "finish_reason": "stop",
+        "cost_bdt": 0.015665,
+        "balance_after": 45.3371,
+        "attempts": 1,
+        "reasoning_chars": 360
+      }
+    },
+    {
+      "question": "What was ExxonMobil's total revenue in 2024?",
+      "result": {
+        "answer": "I could not find this in the provided filings.",
+        "citations": [],
+        "refused": true,
+        "error": null,
+        "prompt_version": "v1",
+        "model": "gpt oss 120b",
+        "latency_ms": 1213,
+        "prompt_tokens": 1400,
+        "completion_tokens": 80,
+        "finish_reason": "stop",
+        "cost_bdt": 0.014184,
+        "balance_after": 45.3229,
+        "attempts": 1,
+        "reasoning_chars": 253
+      }
+    }
+  ]
+}

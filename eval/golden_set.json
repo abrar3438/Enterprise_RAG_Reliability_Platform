@@ -78,7 +78,8 @@
     "type": "numeric",
     "expected_answer": "$4.42 trillion",
     "evidence_snippet": [
-      "Total assets | 4,424,900 | 4,002,814 | 3,875,393"
+      "Total assets | 4,424,900 | 4,002,814 | 3,875,393",
+      "equity | $ | 4,424,900"
     ],
     "notes": "Consolidated assets; avoid segment totals."
   },

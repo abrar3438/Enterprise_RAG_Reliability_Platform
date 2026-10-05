@@ -1,0 +1,451 @@
+{
+  "results": [
+    {
+      "question": "What was Tesla's total revenue in 2025?",
+      "passed": true,
+      "result": {
+        "answer": "Tesla, Inc. reported total revenue of $94,827 million for the year ended December 31, 2025 (Total, as shown in the revenue by geographic area table)[2]",
+        "citations": [
+          {
+            "number": 2,
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. Financial Statements and Supplementary Data",
+            "preview": "generation and storage segment for the years ended December 31, 2025, 2024 and 2023 was $\n355\nmillion, $\n377\nmillion and $\n343\nmillion, respectively.\nThe following table presents revenues by geographi"
+          }
+        ],
+        "refused": false,
+        "error": null,
+        "prompt_version": "v3",
+        "model": "gpt oss 120b",
+        "latency_ms": 2157,
+        "prompt_tokens": 1492,
+        "completion_tokens": 185,
+        "finish_reason": "stop",
+        "cost_bdt": 0.019046,
+        "balance_after": 45.0125,
+        "attempts": 1,
+        "reasoning_chars": 485
+      },
+      "chunks": [
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\ndue to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 wa"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\ngeneration and storage segment for the years ended December 31, 2025, 2024 and 2023 was $\n355\nmillion, $\n377\nmillion and $"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\nobligations are satisfied. As of December 31, 2025 and 2024, deferred revenue related to such customer payments amounted t"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\nand 2024, respectively. Of the total deferred revenue balance as of December 31, 2025, we expect to recognize $\n904\nmillio"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 7. | Management's Discussion and Analysis of Financial Condition and Results of Operations | 31",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations\ninancing of energy generation and storage products, services related to such pro"
+        }
+      ]
+    },
+    {
+      "question": "What was Microsoft's net income in fiscal 2026?",
+      "passed": false,
+      "result": {
+        "answer": "I could not find this in the provided filings.",
+        "citations": [],
+        "refused": true,
+        "error": null,
+        "prompt_version": "v3",
+        "model": "gpt oss 120b",
+        "latency_ms": 1576,
+        "prompt_tokens": 1597,
+        "completion_tokens": 148,
+        "finish_reason": "stop",
+        "cost_bdt": 0.018415,
+        "balance_after": 44.9941,
+        "attempts": 1,
+        "reasoning_chars": 488
+      },
+      "chunks": [
+        {
+          "ticker": "MSFT",
+          "filing_date": "2026-07-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 50",
+          "text": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data\n$ | 10,697 | $ | ( 4,901 | ) | $ | ( 1,646 | )\nOther income (expense), net included $\n6.5\nbillion of net gains, $\n4.8\nb"
+        },
+        {
+          "ticker": "MSFT",
+          "filing_date": "2026-07-29",
+          "section": "Item 7. | Management’s Discussion and Analysis of Financial Condition and Results of Operations | 34",
+          "text": "MICROSOFT CORP (MSFT) 10-K | Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\nses from changes in fair values of derivatives that are not designated as hed"
+        },
+        {
+          "ticker": "MSFT",
+          "filing_date": "2026-07-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 50",
+          "text": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data\nd, net of refunds | $ | 21,188\nIncome taxes paid, net of refunds, were $\n28.7\nbillion, and $\n23.4\nbillion in fiscal yea"
+        },
+        {
+          "ticker": "MSFT",
+          "filing_date": "2026-07-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 50",
+          "text": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data\nly.\nAs of June 30, 2026, 2025, and 2024, we had accrued interest expense related to uncertain tax positions of $\n9.4\nbi"
+        },
+        {
+          "ticker": "MSFT",
+          "filing_date": "2026-07-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 50",
+          "text": "MICROSOFT CORP (MSFT) 10-K | Item 8. Financial Statements and Supplementary Data\n| 9,006 | 7,827 | 6,831\nEnterprise and partner services | 8,260 | 7,760 | 7,594\nOther | 109 | 72 | 45\nTotal | $ | 331,8"
+        }
+      ]
+    },
+    {
+      "question": "How much did the jury award in the Autopilot accident trial?",
+      "passed": true,
+      "result": {
+        "answer": "The jury awarded $129 million in total compensatory damages and $200 million in punitive damages in the Autopilot accident trial[1].",
+        "citations": [
+          {
+            "number": 1,
+            "ticker": "TSLA",
+            "filing_date": "2026-01-29",
+            "section": "Item 8. Financial Statements and Supplementary Data",
+            "preview": "ology in a 2019 accident that resulted in a fatality and injuries. The jury awarded $\n129\nmillion in total compensatory damages, finding the driver\n67\n% at fault and the Company\n33\n% at fault. The jur"
+          }
+        ],
+        "refused": false,
+        "error": null,
+        "prompt_version": "v3",
+        "model": "gpt oss 120b",
+        "latency_ms": 1983,
+        "prompt_tokens": 1212,
+        "completion_tokens": 254,
+        "finish_reason": "stop",
+        "cost_bdt": 0.019558,
+        "balance_after": 44.9746,
+        "attempts": 1,
+        "reasoning_chars": 939
+      },
+      "chunks": [
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\nology in a 2019 accident that resulted in a fatality and injuries. The jury awarded $\n129\nmillion in total compensatory da"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\notaxi. The complaint seeks monetary damages and other relief on behalf of persons who purchased Tesla stock between April "
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\nCourt issued an opinion denying the motion to revise the Court’s January 30, 2024 opinion and awarded Plaintiff’s counsel "
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\nuest under advisement. On January 8, 2025, the Court approved the settlement and awarded Plaintiff’s counsel fees in the a"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\nissued an opinion finding that the 2018 CEO Performance Award should be rescinded. Plaintiff’s counsel filed a brief seeki"
+        }
+      ]
+    },
+    {
+      "question": "What are Walmart's reportable segments?",
+      "passed": true,
+      "result": {
+        "answer": "Walmart’s reportable segments are Walmart U.S., Walmart International, and Sam’s Club U.S. [1] [4]",
+        "citations": [
+          {
+            "number": 1,
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 8. Financial Statements and Supplementary Data",
+            "preview": "cations, located throughout the U.S., Africa, Canada, Central America, Chile, China, India and Mexico. The Company's operations are conducted in\nthree\nreportable segments: Walmart U.S., Walmart Intern"
+          },
+          {
+            "number": 4,
+            "ticker": "WMT",
+            "filing_date": "2026-03-13",
+            "section": "Item 1. Business",
+            "preview": "ng pieces of our omnichannel model centered on our customers around the world who are increasingly seeking convenience.\nInformation About Our Segments\nWe are engaged in global operations of retail, wh"
+          }
+        ],
+        "refused": false,
+        "error": null,
+        "prompt_version": "v3",
+        "model": "gpt oss 120b",
+        "latency_ms": 1400,
+        "prompt_tokens": 1258,
+        "completion_tokens": 138,
+        "finish_reason": "stop",
+        "cost_bdt": 0.01535,
+        "balance_after": 44.9593,
+        "attempts": 1,
+        "reasoning_chars": 432
+      },
+      "chunks": [
+        {
+          "ticker": "WMT",
+          "filing_date": "2026-03-13",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 48",
+          "text": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data\ncations, located throughout the U.S., Africa, Canada, Central America, Chile, China, India and Mexico. The Company's opera"
+        },
+        {
+          "ticker": "WMT",
+          "filing_date": "2026-03-13",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 48",
+          "text": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data\nThe Walmart U.S. segment includes the Company's mass merchandising concept in the U.S., as well as eCommerce, which includ"
+        },
+        {
+          "ticker": "WMT",
+          "filing_date": "2026-03-13",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 48",
+          "text": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data\nmers.\nThe Company's operations comprise\nthree\nreportable segments: Walmart U.S., Walmart International and Sam's Club U.S."
+        },
+        {
+          "ticker": "WMT",
+          "filing_date": "2026-03-13",
+          "section": "Item 1. | Business | 6",
+          "text": "Walmart Inc. (WMT) 10-K | Item 1. Business\nng pieces of our omnichannel model centered on our customers around the world who are increasingly seeking convenience.\nInformation About Our Segments\nWe are"
+        },
+        {
+          "ticker": "WMT",
+          "filing_date": "2026-03-13",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 48",
+          "text": "Walmart Inc. (WMT) 10-K | Item 8. Financial Statements and Supplementary Data\nsegment, including the mix of cost of sales and operating, selling, general and administrative expenses, are not directly "
+        }
+      ]
+    },
+    {
+      "question": "What was Tesla's revenue from Cybertruck in 2025?",
+      "passed": true,
+      "result": {
+        "answer": "I could not find this in the provided filings.",
+        "citations": [],
+        "refused": true,
+        "error": null,
+        "prompt_version": "v3",
+        "model": "gpt oss 120b",
+        "latency_ms": 1272,
+        "prompt_tokens": 1424,
+        "completion_tokens": 97,
+        "finish_reason": "stop",
+        "cost_bdt": 0.015043,
+        "balance_after": 44.9443,
+        "attempts": 1,
+        "reasoning_chars": 356
+      },
+      "chunks": [
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\nobligations are satisfied. As of December 31, 2025 and 2024, deferred revenue related to such customer payments amounted t"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\ndue to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 wa"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\ngeneration and storage segment for the years ended December 31, 2025, 2024 and 2023 was $\n355\nmillion, $\n377\nmillion and $"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\nctive customer contract term. As of December 31, 2025 and 2024, deferred revenue related to such customer payments amounte"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\nand 2024, respectively. Of the total deferred revenue balance as of December 31, 2025, we expect to recognize $\n904\nmillio"
+        }
+      ]
+    },
+    {
+      "question": "What is Nvidia's market share in AI chips?",
+      "passed": true,
+      "result": {
+        "answer": "I could not find this in the provided filings.",
+        "citations": [],
+        "refused": true,
+        "error": null,
+        "prompt_version": "v3",
+        "model": "gpt oss 120b",
+        "latency_ms": 1398,
+        "prompt_tokens": 1204,
+        "completion_tokens": 96,
+        "finish_reason": "stop",
+        "cost_bdt": 0.01327,
+        "balance_after": 44.931,
+        "attempts": 1,
+        "reasoning_chars": 348
+      },
+      "chunks": [
+        {
+          "ticker": "NVDA",
+          "filing_date": "2026-02-25",
+          "section": "Item 1. | Business | 4",
+          "text": "NVIDIA CORP (NVDA) 10-K | Item 1. Business\ned by our products. In addition, it is possible that new competitors or alliances among competitors could emerge and acquire significant market share.\nA sign"
+        },
+        {
+          "ticker": "NVDA",
+          "filing_date": "2026-02-25",
+          "section": "Item 1. | Business | 4",
+          "text": "NVIDIA CORP (NVDA) 10-K | Item 1. Business\nInnovation is at our core. We have invested over $76.7 billion in research and development since our inception, yielding inventions that are essential to mod"
+        },
+        {
+          "ticker": "NVDA",
+          "filing_date": "2026-02-25",
+          "section": "Item 1. | Business | 4",
+          "text": "NVIDIA CORP (NVDA) 10-K | Item 1. Business\ng software.\nThe Graphics segment includes GeForce GPUs for gaming and PCs, and Quadro/NVIDIA RTX GPUs for enterprise workstation graphics.\nOur Markets\nWe spe"
+        },
+        {
+          "ticker": "NVDA",
+          "filing_date": "2026-02-25",
+          "section": "Item 1. | Business | 4",
+          "text": "NVIDIA CORP (NVDA) 10-K | Item 1. Business\nificant increase in token throughput and reduction in cost per token compared to the Hopper generation. More recently, in support of market development, we h"
+        },
+        {
+          "ticker": "NVDA",
+          "filing_date": "2026-02-25",
+          "section": "Item 1. | Business | 4",
+          "text": "NVIDIA CORP (NVDA) 10-K | Item 1. Business\nIn fiscal year 2025, we launched the NVIDIA Blackwell architecture, a full set of data center scale infrastructure that includes GPUs, CPUs, DPUs, interconne"
+        }
+      ]
+    },
+    {
+      "question": "How many Vision Pro headsets did Apple sell in fiscal 2025?",
+      "passed": true,
+      "result": {
+        "answer": "I could not find this in the provided filings.",
+        "citations": [],
+        "refused": true,
+        "error": null,
+        "prompt_version": "v3",
+        "model": "gpt oss 120b",
+        "latency_ms": 1438,
+        "prompt_tokens": 1594,
+        "completion_tokens": 123,
+        "finish_reason": "stop",
+        "cost_bdt": 0.017407,
+        "balance_after": 44.9136,
+        "attempts": 1,
+        "reasoning_chars": 459
+      },
+      "chunks": [
+        {
+          "ticker": "AAPL",
+          "filing_date": "2025-10-31",
+          "section": "Item 7. | Management’s Discussion and Analysis of Financial Condition and Results of Operations | 21",
+          "text": "Apple Inc. (AAPL) 10-K | Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\new product, service and software offerings at various times during the year. Sign"
+        },
+        {
+          "ticker": "AAPL",
+          "filing_date": "2025-10-31",
+          "section": "Item 7. | Management’s Discussion and Analysis of Financial Condition and Results of Operations | 21",
+          "text": "Apple Inc. (AAPL) 10-K | Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\nne 17, iPhone Air, iPhone 17 Pro and iPhone 17 Pro Max\n•\nApple Watch Series 11, A"
+        },
+        {
+          "ticker": "AAPL",
+          "filing_date": "2025-10-31",
+          "section": "Item 7. | Management’s Discussion and Analysis of Financial Condition and Results of Operations | 21",
+          "text": "Apple Inc. (AAPL) 10-K | Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\n| % | $ | 383,285\n(1)\nServices net sales include amortization of the deferred val"
+        },
+        {
+          "ticker": "AAPL",
+          "filing_date": "2025-10-31",
+          "section": "Item 7. | Management’s Discussion and Analysis of Financial Condition and Results of Operations | 21",
+          "text": "Apple Inc. (AAPL) 10-K | Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\narables, Home and Accessories net sales decreased during 2025 compared to 2024 pr"
+        },
+        {
+          "ticker": "AAPL",
+          "filing_date": "2025-10-31",
+          "section": "Item 7. | Management’s Discussion and Analysis of Financial Condition and Results of Operations | 21",
+          "text": "Apple Inc. (AAPL) 10-K | Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\ncompared to 2024 was primarily driven by increases in headcount-related expenses "
+        }
+      ]
+    },
+    {
+      "question": "What was ExxonMobil's total revenue in 2024?",
+      "passed": true,
+      "result": {
+        "answer": "I could not find this in the provided filings.",
+        "citations": [],
+        "refused": true,
+        "error": null,
+        "prompt_version": "v3",
+        "model": "gpt oss 120b",
+        "latency_ms": 1318,
+        "prompt_tokens": 1511,
+        "completion_tokens": 82,
+        "finish_reason": "stop",
+        "cost_bdt": 0.015137,
+        "balance_after": 44.8985,
+        "attempts": 1,
+        "reasoning_chars": 270
+      },
+      "chunks": [
+        {
+          "ticker": "PFE",
+          "filing_date": "2026-02-26",
+          "section": "Item 1. BUSINESS | 3",
+          "text": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS\nations\nand\n––\nG\novernment Regulation an\nd Price Cons\ntraints\nsections for additional information.\nOur 2025 Performance\nTotal Revenues\n––Total revenues\ndecrease"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2026-01-29",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\ndue to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2024 and 2023 wa"
+        },
+        {
+          "ticker": "TSLA",
+          "filing_date": "2025-01-30",
+          "section": "Item 8. | Financial Statements and Supplementary Data | 45",
+          "text": "Tesla, Inc. (TSLA) 10-K | Item 8. Financial Statements and Supplementary Data\ny due to contractual payment terms. Revenue recognized from the deferred revenue balance as of December 31, 2023 and 2022 "
+        },
+        {
+          "ticker": "PFE",
+          "filing_date": "2025-02-27",
+          "section": "Item 1. BUSINESS | 3",
+          "text": "PFIZER INC (PFE) 10-K | Item 1. BUSINESS\nto the expected return of an estimated 6.5 million treatment courses of EUA labeled U.S. government inventory and (ii) revenue in 2024 of $1.2 billion from two"
+        },
+        {
+          "ticker": "PFE",
+          "filing_date": "2026-02-26",
+          "section": "Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA | 50",
+          "text": "PFIZER INC (PFE) 10-K | Item 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA\n:\nDeveloped Markets | 16,188 | 16,057 | 20,910\nEmerging Markets | 9,313 | 8,879 | 10,498\nTotal revenues (a) | $ | 62,579 | $"
+        }
+      ]
+    }
+  ]
+}
