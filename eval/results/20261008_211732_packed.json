@@ -1,0 +1,404 @@
+{
+  "settings": {
+    "k": 10,
+    "pool": 100,
+    "pack_top_n": 5,
+    "budget": 6000,
+    "golden_set": "eval/golden_set.json",
+    "baseline_file": "eval/results/20261008_211316_recheck.json"
+  },
+  "baseline": {
+    "hit_at_1": 0.375,
+    "hit_at_5": 0.625,
+    "mrr": 0.502827380952381,
+    "numeric_hit_at_5": 0.5,
+    "narrative_hit_at_5": 0.75,
+    "misses": [
+      "aapl-rev-fy2025",
+      "msft-ni-fy2026"
+    ]
+  },
+  "prod": {
+    "n": 16,
+    "hit_at_1": 0.375,
+    "hit_at_5": 0.625,
+    "hits_at_5": 10,
+    "mrr": 0.502827380952381
+  },
+  "packed": {
+    "n": 16,
+    "hit_at_1": 0.375,
+    "hit_at_5": 0.625,
+    "hits_at_5": 10,
+    "mrr": 0.465625
+  },
+  "scorer_matches_baseline": true,
+  "rows": [
+    {
+      "id": "tsla-rev-2025",
+      "type": "numeric",
+      "prod_rank": 7,
+      "packed_rank": null,
+      "num_blocks": 4,
+      "context_chars": 3681,
+      "block_chunk_ids": [
+        [
+          28419,
+          28420
+        ],
+        [
+          28658
+        ],
+        [
+          28401
+        ],
+        [
+          28296
+        ]
+      ]
+    },
+    {
+      "id": "tsla-rev-no-year",
+      "type": "numeric",
+      "prod_rank": 1,
+      "packed_rank": 1,
+      "num_blocks": 4,
+      "context_chars": 3118,
+      "block_chunk_ids": [
+        [
+          28391
+        ],
+        [
+          28658
+        ],
+        [
+          28410
+        ],
+        [
+          28419,
+          28420
+        ]
+      ]
+    },
+    {
+      "id": "aapl-rev-fy2025",
+      "type": "numeric",
+      "prod_rank": null,
+      "packed_rank": null,
+      "num_blocks": 4,
+      "context_chars": 4121,
+      "block_chunk_ids": [
+        [
+          19070,
+          19071
+        ],
+        [
+          19096
+        ],
+        [
+          19101
+        ],
+        [
+          19120
+        ]
+      ]
+    },
+    {
+      "id": "msft-ni-fy2026",
+      "type": "numeric",
+      "prod_rank": null,
+      "packed_rank": null,
+      "num_blocks": 4,
+      "context_chars": 3653,
+      "block_chunk_ids": [
+        [
+          20026
+        ],
+        [
+          19892
+        ],
+        [
+          20083,
+          20084
+        ],
+        [
+          20126
+        ]
+      ]
+    },
+    {
+      "id": "wmt-rev-fy2026",
+      "type": "numeric",
+      "prod_rank": 1,
+      "packed_rank": 1,
+      "num_blocks": 4,
+      "context_chars": 3387,
+      "block_chunk_ids": [
+        [
+          26647,
+          26648
+        ],
+        [
+          26914
+        ],
+        [
+          27121
+        ],
+        [
+          27231
+        ]
+      ]
+    },
+    {
+      "id": "jpm-assets-2025",
+      "type": "numeric",
+      "prod_rank": 2,
+      "packed_rank": 2,
+      "num_blocks": 3,
+      "context_chars": 3694,
+      "block_chunk_ids": [
+        [
+          23343,
+          23344
+        ],
+        [
+          23193,
+          23194
+        ],
+        [
+          24155
+        ]
+      ]
+    },
+    {
+      "id": "pfe-rev-2025",
+      "type": "numeric",
+      "prod_rank": 1,
+      "packed_rank": 1,
+      "num_blocks": 4,
+      "context_chars": 3834,
+      "block_chunk_ids": [
+        [
+          24474,
+          24475
+        ],
+        [
+          25381
+        ],
+        [
+          24630
+        ],
+        [
+          24484
+        ]
+      ]
+    },
+    {
+      "id": "nvda-rev-fy2026",
+      "type": "numeric",
+      "prod_rank": 7,
+      "packed_rank": null,
+      "num_blocks": 5,
+      "context_chars": 4092,
+      "block_chunk_ids": [
+        [
+          21320
+        ],
+        [
+          21374
+        ],
+        [
+          21318
+        ],
+        [
+          21376
+        ],
+        [
+          20992
+        ]
+      ]
+    },
+    {
+      "id": "msft-openai",
+      "type": "narrative",
+      "prod_rank": 1,
+      "packed_rank": 1,
+      "num_blocks": 4,
+      "context_chars": 4050,
+      "block_chunk_ids": [
+        [
+          19873
+        ],
+        [
+          20026
+        ],
+        [
+          20005,
+          20006
+        ],
+        [
+          19701
+        ]
+      ]
+    },
+    {
+      "id": "nvda-h20",
+      "type": "narrative",
+      "prod_rank": 1,
+      "packed_rank": 1,
+      "num_blocks": 2,
+      "context_chars": 1983,
+      "block_chunk_ids": [
+        [
+          20866,
+          20867
+        ],
+        [
+          21119
+        ]
+      ]
+    },
+    {
+      "id": "nvda-concentration",
+      "type": "narrative",
+      "prod_rank": 5,
+      "packed_rank": 5,
+      "num_blocks": 5,
+      "context_chars": 3942,
+      "block_chunk_ids": [
+        [
+          20995
+        ],
+        [
+          20986
+        ],
+        [
+          21265
+        ],
+        [
+          20991
+        ],
+        [
+          20894
+        ]
+      ]
+    },
+    {
+      "id": "aapl-supply-risk",
+      "type": "narrative",
+      "prod_rank": 7,
+      "packed_rank": null,
+      "num_blocks": 4,
+      "context_chars": 3349,
+      "block_chunk_ids": [
+        [
+          18915
+        ],
+        [
+          18886,
+          18887
+        ],
+        [
+          18870
+        ],
+        [
+          18868
+        ]
+      ]
+    },
+    {
+      "id": "tsla-autopilot-verdict",
+      "type": "narrative",
+      "prod_rank": 1,
+      "packed_rank": 1,
+      "num_blocks": 4,
+      "context_chars": 2806,
+      "block_chunk_ids": [
+        [
+          28639,
+          28640
+        ],
+        [
+          28618
+        ],
+        [
+          28621
+        ],
+        [
+          28616
+        ]
+      ]
+    },
+    {
+      "id": "pfe-eliquis-share",
+      "type": "narrative",
+      "prod_rank": 2,
+      "packed_rank": 2,
+      "num_blocks": 5,
+      "context_chars": 3405,
+      "block_chunk_ids": [
+        [
+          24474
+        ],
+        [
+          24324
+        ],
+        [
+          24800
+        ],
+        [
+          25381
+        ],
+        [
+          24364
+        ]
+      ]
+    },
+    {
+      "id": "wmt-segments",
+      "type": "narrative",
+      "prod_rank": 6,
+      "packed_rank": null,
+      "num_blocks": 3,
+      "context_chars": 3654,
+      "block_chunk_ids": [
+        [
+          27221,
+          27222,
+          27223
+        ],
+        [
+          27076
+        ],
+        [
+          26654
+        ]
+      ]
+    },
+    {
+      "id": "jpm-credit-risk",
+      "type": "narrative",
+      "prod_rank": 4,
+      "packed_rank": 4,
+      "num_blocks": 5,
+      "context_chars": 4029,
+      "block_chunk_ids": [
+        [
+          22805
+        ],
+        [
+          22853
+        ],
+        [
+          22204
+        ],
+        [
+          22202
+        ],
+        [
+          22212
+        ]
+      ]
+    }
+  ]
+}

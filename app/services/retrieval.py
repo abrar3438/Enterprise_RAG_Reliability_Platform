@@ -1,5 +1,4 @@
 """Dense, BM25, hybrid (RRF) and reranked retrieval, with automatic filing selection."""
-import re
 from functools import lru_cache
 
 from rank_bm25 import BM25Okapi
@@ -10,6 +9,7 @@ from sqlalchemy.orm import Session
 from app.models.tables import Chunk, Document
 from app.services.embeddings import get_model
 from app.services.filings import resolve_filing_dates
+from app.services.tokenize import tokenize  # CHANGED: shared tokenizer, was defined here
 
 USE_FILING_RULE = True  # set False to reproduce the old behavior
 
@@ -31,6 +31,9 @@ def dense_search(db: Session, query: str, k: int = 5, ticker: str | None = None)
     stmt = stmt.order_by(dist).limit(k)
     return [
         {
+            "id": c.id,
+            "document_id": c.document_id,      # CHANGED: needed by packing
+            "chunk_index": c.chunk_index,      # CHANGED: needed by packing
             "ticker": d.ticker, "filing_date": str(d.filing_date), "section": c.section,
             "distance": round(float(dist_val), 4), "content": c.content,
         }
@@ -39,24 +42,15 @@ def dense_search(db: Session, query: str, k: int = 5, ticker: str | None = None)
 
 
 # ---------- BM25 ----------
-_TOKEN_RE = re.compile(r"[a-z0-9]+")
-_STOP = {"what", "was", "were", "is", "are", "the", "a", "an", "of", "in", "on", "to", "for",
-         "and", "or", "does", "do", "did", "how", "which", "who", "s", "its", "it", "by", "with"}
-
-
-def tokenize(text: str) -> list[str]:
-    toks = _TOKEN_RE.findall(text.lower().replace("\u2019", "'").replace("'s", ""))
-    toks = [t[:-1] if len(t) > 3 and t.endswith("s") else t for t in toks]
-    return [t for t in toks if t not in _STOP and len(t) > 1]
-
-
 @lru_cache(maxsize=1)  # builds the index once per process
 def _bm25_index():
     from app.core.database import SessionLocal
     with SessionLocal() as db:
         rows = db.execute(
-            select(Chunk.id, Chunk.content, Chunk.section, Document.ticker, Document.filing_date)
-            .join(Document, Document.id == Chunk.document_id)
+            select(
+                Chunk.id, Chunk.document_id, Chunk.chunk_index,  # CHANGED
+                Chunk.content, Chunk.section, Document.ticker, Document.filing_date,
+            ).join(Document, Document.id == Chunk.document_id)
         ).all()
     return BM25Okapi([tokenize(r.content) for r in rows]), rows
 
@@ -73,8 +67,13 @@ def bm25_search(query: str, k: int = 5, ticker: str | None = None) -> list[dict]
             continue
         if dates and r.filing_date not in dates:
             continue
-        out.append({"id": r.id, "ticker": r.ticker, "filing_date": str(r.filing_date),
-                    "section": r.section, "score": round(float(scores[i]), 3), "content": r.content})
+        out.append({
+            "id": r.id,
+            "document_id": r.document_id,      # CHANGED
+            "chunk_index": r.chunk_index,      # CHANGED
+            "ticker": r.ticker, "filing_date": str(r.filing_date),
+            "section": r.section, "score": round(float(scores[i]), 3), "content": r.content,
+        })
         if len(out) == k:
             break
     return out

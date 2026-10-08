@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SEC 10-K Question Answering</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <h1>Ask the SEC 10-K filings</h1>
+    <p class="intro">Answers cite the filing they come from. If the filings don't contain the answer, the system says so.</p>
+
+    <form id="ask-form">
+      <div class="row">
+        <input id="question" type="text" maxlength="500" placeholder="e.g. What was Tesla's total revenue in 2025?" required>
+        <select id="ticker" aria-label="Company">
+          <option value="">Auto-detect</option>
+          <option>AAPL</option><option>MSFT</option><option>NVDA</option><option>TSLA</option>
+          <option>WMT</option><option>JPM</option><option>PFE</option>
+        </select>
+        <button id="submit" type="submit">Ask</button>
+      </div>
+    </form>
+
+    <div class="examples">
+      <button type="button" data-example="What was Tesla's total revenue in 2025?">Tesla revenue 2025</button>
+      <button type="button" data-example="What are Walmart's reportable segments?">Walmart segments</button>
+      <button type="button" data-example="How much did the jury award in the Autopilot accident trial?">Autopilot verdict</button>
+      <button type="button" data-example="What is Nvidia's market share in AI chips?">Not in the filings</button>
+    </div>
+
+    <p id="status" role="status" aria-live="polite"></p>
+    <section id="result" aria-live="polite">
+      <div id="answer"></div>
+      <ol id="citations"></ol>
+    </section>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

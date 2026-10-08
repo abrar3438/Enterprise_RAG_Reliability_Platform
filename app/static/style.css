@@ -1,0 +1,20 @@
+:root { --ink: #1d2433; --muted: #5b6475; --line: #d9dee8; --accent: #2b5fd9; --warn: #8a5a00; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Segoe UI, Roboto, sans-serif; color: var(--ink); background: #f6f7f9; }
+main { max-width: 760px; margin: 40px auto; padding: 0 16px; }
+h1 { font-size: 1.6rem; margin: 0 0 8px; }
+.intro { color: var(--muted); margin: 0 0 20px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; }
+#question { flex: 1 1 320px; padding: 10px; font-size: 1rem; border: 1px solid var(--line); border-radius: 6px; }
+select, button { padding: 10px 14px; font-size: 1rem; border-radius: 6px; border: 1px solid var(--line); background: #fff; }
+#submit { background: var(--accent); color: #fff; border-color: var(--accent); cursor: pointer; }
+#submit:disabled { opacity: 0.6; cursor: wait; }
+.examples { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0 16px; }
+.examples button { font-size: 0.85rem; padding: 6px 10px; color: var(--muted); cursor: pointer; }
+#status { color: var(--muted); min-height: 1.2em; }
+#answer { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 16px; white-space: pre-wrap; min-height: 2em; }
+#answer.refused { border-color: var(--warn); color: var(--warn); }
+#citations { padding-left: 20px; }
+#citations li { margin: 12px 0; }
+.section { color: var(--muted); font-size: 0.9rem; }
+blockquote { margin: 6px 0 0; padding-left: 10px; border-left: 3px solid var(--line); color: var(--muted); font-size: 0.9rem; }

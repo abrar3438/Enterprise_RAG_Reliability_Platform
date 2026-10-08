@@ -1,6 +1,29 @@
-version: "3.9"
+# version: "3.9"
+
+# services:
+#   db:
+#     # pgvector/pgvector ships Postgres with the pgvector extension
+#     # pre-installed — saves us from manually compiling the extension.
+#     image: pgvector/pgvector:pg16
+#     container_name: rag-postgres
+#     restart: unless-stopped
+#     environment:
+#       POSTGRES_USER: postgres
+#       POSTGRES_PASSWORD: postgres
+#       POSTGRES_DB: ragdb
+#     ports:
+#       - "5432:5432"
+#     volumes:
+#       # Named volume so data survives container restarts.
+#       - rag_pgdata:/var/lib/postgresql/data
+
+# volumes:
+#   rag_pgdata:
+
+
 
 services:
+
   db:
     # pgvector/pgvector ships Postgres with the pgvector extension
     # pre-installed — saves us from manually compiling the extension.
@@ -16,6 +39,29 @@ services:
     volumes:
       # Named volume so data survives container restarts.
       - rag_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d ragdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: .
+    container_name: rag-api
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      # inside the compose network the host is the Postgres SERVICE name, never localhost
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-ragdb}
+      CRAFTX_API_KEY: ${CRAFTX_API_KEY}
+      API_KEY: ${API_KEY:-}
+      ENVIRONMENT: production
 
 volumes:
   rag_pgdata:
+    external: true
+    name: enterpriseragreliabilityplatform_rag_pgdata

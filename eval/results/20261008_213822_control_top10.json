@@ -1,0 +1,197 @@
+{
+  "settings": {
+    "budget": 6000,
+    "baseline_file": "eval/results/20261008_211316_recheck.json",
+    "packed_file": "eval/results/20261008_213510_packed_top10_fixed.json"
+  },
+  "prod10": {
+    "n": 16,
+    "hit_at_1": 0.375,
+    "hit_at_5": 0.625,
+    "hits_at_5": 10,
+    "mrr": 0.502827380952381
+  },
+  "prod5": {
+    "n": 16,
+    "hit_at_1": 0.375,
+    "hit_at_5": 0.625,
+    "hits_at_5": 10,
+    "mrr": 0.465625
+  },
+  "control": {
+    "n": 16,
+    "hit_at_1": 0.375,
+    "hit_at_5": 0.625,
+    "hits_at_5": 10,
+    "mrr": 0.502827380952381
+  },
+  "packed": {
+    "n": 16,
+    "hit_at_1": 0.375,
+    "hit_at_5": 0.875,
+    "hits_at_5": 14,
+    "mrr": 0.5375
+  },
+  "rows": [
+    {
+      "id": "tsla-rev-2025",
+      "type": "numeric",
+      "prod_rank": 7,
+      "prod_rank_at5": null,
+      "control_rank": 7,
+      "control_chunks": 7,
+      "control_chars": 5378,
+      "packed_rank": 5
+    },
+    {
+      "id": "tsla-rev-no-year",
+      "type": "numeric",
+      "prod_rank": 1,
+      "prod_rank_at5": 1,
+      "control_rank": 1,
+      "control_chunks": 8,
+      "control_chars": 5630,
+      "packed_rank": 1
+    },
+    {
+      "id": "aapl-rev-fy2025",
+      "type": "numeric",
+      "prod_rank": null,
+      "prod_rank_at5": null,
+      "control_rank": null,
+      "control_chunks": 7,
+      "control_chars": 5650,
+      "packed_rank": null
+    },
+    {
+      "id": "msft-ni-fy2026",
+      "type": "numeric",
+      "prod_rank": null,
+      "prod_rank_at5": null,
+      "control_rank": null,
+      "control_chunks": 7,
+      "control_chars": 5732,
+      "packed_rank": null
+    },
+    {
+      "id": "wmt-rev-fy2026",
+      "type": "numeric",
+      "prod_rank": 1,
+      "prod_rank_at5": 1,
+      "control_rank": 1,
+      "control_chunks": 7,
+      "control_chars": 5096,
+      "packed_rank": 1
+    },
+    {
+      "id": "jpm-assets-2025",
+      "type": "numeric",
+      "prod_rank": 2,
+      "prod_rank_at5": 2,
+      "control_rank": 2,
+      "control_chunks": 7,
+      "control_chars": 5754,
+      "packed_rank": 2
+    },
+    {
+      "id": "pfe-rev-2025",
+      "type": "numeric",
+      "prod_rank": 1,
+      "prod_rank_at5": 1,
+      "control_rank": 1,
+      "control_chunks": 7,
+      "control_chars": 5719,
+      "packed_rank": 1
+    },
+    {
+      "id": "nvda-rev-fy2026",
+      "type": "numeric",
+      "prod_rank": 7,
+      "prod_rank_at5": null,
+      "control_rank": 7,
+      "control_chunks": 7,
+      "control_chars": 5814,
+      "packed_rank": 2
+    },
+    {
+      "id": "msft-openai",
+      "type": "narrative",
+      "prod_rank": 1,
+      "prod_rank_at5": 1,
+      "control_rank": 1,
+      "control_chunks": 7,
+      "control_chars": 5558,
+      "packed_rank": 1
+    },
+    {
+      "id": "nvda-h20",
+      "type": "narrative",
+      "prod_rank": 1,
+      "prod_rank_at5": 1,
+      "control_rank": 1,
+      "control_chunks": 8,
+      "control_chars": 5929,
+      "packed_rank": 1
+    },
+    {
+      "id": "nvda-concentration",
+      "type": "narrative",
+      "prod_rank": 5,
+      "prod_rank_at5": 5,
+      "control_rank": 5,
+      "control_chunks": 8,
+      "control_chars": 5874,
+      "packed_rank": 5
+    },
+    {
+      "id": "aapl-supply-risk",
+      "type": "narrative",
+      "prod_rank": 7,
+      "prod_rank_at5": null,
+      "control_rank": 7,
+      "control_chunks": 8,
+      "control_chars": 5885,
+      "packed_rank": 5
+    },
+    {
+      "id": "tsla-autopilot-verdict",
+      "type": "narrative",
+      "prod_rank": 1,
+      "prod_rank_at5": 1,
+      "control_rank": 1,
+      "control_chunks": 9,
+      "control_chars": 5935,
+      "packed_rank": 1
+    },
+    {
+      "id": "pfe-eliquis-share",
+      "type": "narrative",
+      "prod_rank": 2,
+      "prod_rank_at5": 2,
+      "control_rank": 2,
+      "control_chunks": 8,
+      "control_chars": 5822,
+      "packed_rank": 2
+    },
+    {
+      "id": "wmt-segments",
+      "type": "narrative",
+      "prod_rank": 6,
+      "prod_rank_at5": null,
+      "control_rank": 6,
+      "control_chunks": 7,
+      "control_chars": 5586,
+      "packed_rank": 4
+    },
+    {
+      "id": "jpm-credit-risk",
+      "type": "narrative",
+      "prod_rank": 4,
+      "prod_rank_at5": 4,
+      "control_rank": 4,
+      "control_chunks": 7,
+      "control_chars": 5891,
+      "packed_rank": 4
+    }
+  ]
+}

@@ -9,3 +9,4 @@ pgvector==0.3.5
 beautifulsoup4
 lxml
 rank-bm25
+sentence-transformers
