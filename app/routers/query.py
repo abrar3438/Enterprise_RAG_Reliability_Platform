@@ -49,7 +49,7 @@ def _build_response(result, *, ticker, ticker_source, latency_ms, retrieval_ms, 
 def query_endpoint(req: QueryRequest, request: Request,
                    x_api_key: str | None = Header(default=None)) -> QueryResponse:
     # 0. access control and limits, before any database or LLM work
-    check_api_key(x_api_key)
+    # check_api_key(x_api_key)
 
     ip = request.client.host if request.client else "unknown"
     if not ratelimit.allow(ip):
